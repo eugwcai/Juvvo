@@ -9,3 +9,5 @@ Physical therapy tool for diagnosis and treatment
 4. Navigate to the repository that was just cloned onto your computer
 5. View file located in Juvvo -> WebContent -> index.html
 
+
+This has been changed 09/08/2017

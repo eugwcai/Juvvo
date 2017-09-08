@@ -4,36 +4,35 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
       <script type="text/javascript" src="http://www.outsharked.com/scripts/jquery.imagemapster.js"></script>
-      <STYLE TYPE="text/css">
+
+      <style TYPE="text/css">
          body {
          margin:0
          }
          #navBar {
          background-color: #ccccff;
          height: 100px;
-         position: fixed;
-         width: 100%;
-         top:0;
-         }
-         #wrapper {
-         margin: 110px auto 0;
          width: 100%;
          }
          #logo {
-         max-height:80%;
+         max-height:100%;
+         margin-left:15px;
+         }
+         input[name="options"]{
+            display:none;
+         }
+         #row{
+         min-width: 337px; 
+         margin:0 auto; 
+         padding:50px;
+         /*border: 5px solid lightblue; 
+         border-radius:15px; */
          }
          #veg_demo{
          text-align:center;
          max-width:100%;
          margin: auto;
-         }
-         #row{
-         min-width: 337px; 
-         margin:0 auto; 
-         /*border: 5px solid lightblue; 
-         border-radius:15px; */
-         padding:50px;"
-         }
+         } 
          #submit {
          background-color: #7f7fff; 
          color: #E0E0E0;
@@ -47,34 +46,46 @@
          background-color: #ccccff;
          color: white;
          }
-      </STYLE>
+      </style>
    </head>
    <body >
-      <div id="navBar"><img src="img/Juvvo.png" style="max-height:80%; position:absolute; top:10%; margin-left:15px;"></div>
-      <div id="wrapper"></div>
+      <div id="navBar"><img src="img/Juvvo.png" id="logo"></div>
 
-      <!--<input type="checkbox" name="l1">
-      <input type="checkbox" name="l2">
-      <input type="checkbox" name="l3">
-      <input type="checkbox" name="l4">
-      <input type="checkbox" name="l5">
-      <input type="checkbox" name="s1">
-      <input type="checkbox" name="s2">
-      <input type="checkbox" name="s3">
-      <input type="checkbox" name="s4">
-      <input type="checkbox" name="s5">-->
+      <input type="checkbox" id="l1" name="options">
+      <input type="checkbox" id="l2" name="options">
+      <input type="checkbox" id="l3" name="options">
+      <input type="checkbox" id="l4" name="options">
+      <input type="checkbox" id="l5" name="options">
+      <input type="checkbox" id="s1" name="options">
+      <input type="checkbox" id="s2" name="options">
+      <input type="checkbox" id="s3" name="options">
+      <input type="checkbox" id="s4" name="options">
+      <input type="checkbox" id="s5" name="options">
 
 
       <form action="checkDiagnosis" method="post" id="myForm" style="width:100%; height:100%;">
-         <div class="row" id="row">
+         <div id="row">
             <div id="veg_demo">
-               <img id="veg" src="dermatomevF2.jpg" usemap="#veg" >
+               <img id="veg" src="dermatomevF2.jpg" usemap="#veg" style="clear: both" >
             </div>
          </div>
       </form>
       <script type="text/javascript">
          document.getElementById("row").style.width = document.getElementById("veg").width + "px";
          $(document).ready(function () {
+               // a cross reference of area names to text to be shown for each area
+             var xref = {
+                 l1: "l1",
+                 l2: "l2",
+                 l3: "l3",
+                 l4: "l4",
+                 l5: "l5",
+                 s1: "s1",
+                 s2: "s2",
+                 s3: "s3",
+                 s4: "s4",
+                 s5: "s5"
+             };
                 var image = $('img');
                 image.mapster(
                 {
@@ -87,7 +98,13 @@
                      isSelectable: true,
                      singleSelect: false,
                      mapKey: 'name',
-                     listKey: 'name'
+                     listKey: 'name',
+                     onClick: function(e){
+                        
+            
+                        // update text depending on area selected
+                        $('#selection').html(xref[e.key] + ", " + $('#selection').html());
+                     }
                });
             });
       </script>
@@ -118,6 +135,8 @@
       </map>
       <div style="width:100%; text-align:center;">
          <input id="submit" type="submit" value="Submit" style="margin:0 auto; " >
+      </div>
+      <div id="selection">
       </div>
    </body>
 </html>
