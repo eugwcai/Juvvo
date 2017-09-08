@@ -1,10 +1,11 @@
 # Juvvo
 Physical therapy tool for diagnosis and treatment
 
-1. Download the folder "startbootstrap-stylish-portfolio-gh-pages" to the appropriate directory on your local computer
-2. Access index.html with preferred browser to view website
-3. To make modifications to the website, open the file using a text editor (Sublime 3 or Notepad++ are good options)
+1. Install GitHub desktop: https://desktop.github.com/
+2. Sign in to your GitHub account
+3. File -> Clone Repository -> **Clone**
+  * URL: https://github.com/eugwcai/Juvvo/
+  * Local Path: *You can saved it wherever you want but I have it in my Documents folder (C:\Users\eugwc\OneDrive\Documents)*
+4. Navigate to the repository that was just cloned onto your computer
+5. View index.html folder located in Juvvo -> WebContent -> index.html
 
-Note
-
-Static resources are saved in the folders labeled: "css", "img", "js" etc.
