@@ -1,299 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
+      <script type="text/javascript" src="http://www.outsharked.com/scripts/jquery.imagemapster.js"></script>
+      <STYLE TYPE="text/css">
+         body {
+         margin:0
+         }
+         #navBar {
+         background-color: #ccccff;
+         height: 100px;
+         position: fixed;
+         width: 100%;
+         top:0;
+         }
+         #wrapper {
+         margin: 110px auto 0;
+         width: 100%;
+         }
+         #logo {
+         max-height:80%;
+         }
+         #veg_demo{
+         text-align:center;
+         max-width:100%;
+         margin: auto;
+         }
+         #row{
+         min-width: 337px; 
+         margin:0 auto; 
+         /*border: 5px solid lightblue; 
+         border-radius:15px; */
+         padding:50px;"
+         }
+         #submit {
+         background-color: #7f7fff; 
+         color: #E0E0E0;
+         font-size:14px; 
+         border: 2px solid #ccccff;
+         border-radius:10px;
+         height:40px;
+         width:150px;
+         }
+         #submit:hover {
+         background-color: #ccccff;
+         color: white;
+         }
+      </STYLE>
+   </head>
+   <body >
+      <div id="navBar"><img src="img/Juvvo.png" style="max-height:80%; position:absolute; top:10%; margin-left:15px;"></div>
+      <div id="wrapper"></div>
 
-<head>
+      <!--<input type="checkbox" name="l1">
+      <input type="checkbox" name="l2">
+      <input type="checkbox" name="l3">
+      <input type="checkbox" name="l4">
+      <input type="checkbox" name="l5">
+      <input type="checkbox" name="s1">
+      <input type="checkbox" name="s2">
+      <input type="checkbox" name="s3">
+      <input type="checkbox" name="s4">
+      <input type="checkbox" name="s5">-->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    	
-    	
-    	
-    	
-        $("#upperbackcb").change(function(){
-            if($(this).is(':checked')) {
-                $("#upperback").append('<p id="upperbacksymptoms" style="padding-left:30px; margin-bottom:-20px;">\
-                    <input type="checkbox" id="upperbacksymptom1"/><label>Numbness</label></br>\
-                    <input type="checkbox" id="upperbacksymptom2"/><label>Sharp Pain</label></br>\
-                    <input type="checkbox" id="upperbacksymptom3"/><label>Soreness</label></br>\
-                    <input type="checkbox" id="upperbacksymptom4"/><label>Throbbing</label></br></p>');
-                   // <input type="checkbox" id="upperbacksymptom5"/><label>Other</label></p>');
-            }else{
-                $("#upperbacksymptoms").remove();
-            }      
-        });
-
-        /*$(document).on('click','#upperbacksymptom5', function(){
-            if($("#upperbacksymptom5").is(':checked')) {
-                $("#upperbacksymptoms").append('<input type="text" id="upperbacksymptomother" style="margin-left:5px;"/>')
-            }else{
-                $("#upperbacksymptomother").remove();
-            }
-        });*/
-        
-        $('#myForm').submit(function( event ) {
-          var checked = $("input[type=checkbox]:checked").length;
-
-          if(!checked) {
-            alert("You must check at least one checkbox.");
-            return false;
-          }
-
-        });
-        
-        $(window).scroll(function() {
-            sessionStorage.scrollTop = $(this).scrollTop();
-        });
-
-        
-        if (sessionStorage.scrollTop != "undefined") {
-        	$(window).scrollTop(sessionStorage.scrollTop);
-       	}
-       
-    });
-    </script>
-
-    <script src="js/imagemapster.js"></script>   
-    <script>
-    var image = $('#myimage');
-
-    image.mapster(
-    {
-        fillOpacity: 0.4,
-        fillColor: "d42e16",
-        stroke: true,
-        strokeColor: "3320FF",
-        strokeOpacity: 0.8,
-        strokeWidth: 12,
-        singleSelect: true,
-        mapKey: 'name',
-        listKey: 'name'
-    }).mapster('set',true,'thigh');
-    </script>
-
-</head>
-
-<body>
-
-	<% session.invalidate(); %>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <!--<h1>Start Bootstrap</h1>-->
-            <img src="img/Juvvo.png">
-            <p style="font-size:30px; font-family:cursive; font-style:italic;">"Physical therapy tool for diagnosis and treatment (motivation statement)"</p>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Get Started</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <h1>Select the body parts of interest.</h1></br>
-            <form action="checkDiagnosis" method="post" id="myForm">
-            <div class="row" style="width:80%; margin:0 auto;">
-                <div class="diagnosis" style="float:left;">
-                    
-                        <span id="upperback"><input type="checkbox" name="checkedBody" id="upperbackcb" value="1"><label id="upperbacklabel">Upper Back</label></span></br>
-                        <input type="checkbox" name="checkedBody" id="midback" value="2"><label>Mid Back</label></br>
-                        <input type="checkbox" name="checkedBody" id="lowerback" value="3"><label>Lower Back</label></br>
-                        <input type="checkbox" name="checkedBody" id="rightupperbuttocks" value="4"><label>Right Upper Buttocks</label></br>
-                        <input type="checkbox" name="checkedBody" id="leftupperbuttocks" value="5"><label>Left Upper Buttocks</label></br>
-                        <input type="checkbox" name="checkedBody" id="rightbigtoe" value="6"><label>Right Big Toe</label></br>
-                    
-                </div>
-
-                <div id="dermatomeimage" style="float:right; ">
-                    <img id="myimage" src="img/dermatomevF.png" usemap="#derma">
-                    <map id="derma" name="derma">
-                        <area  shape="poly" name="thigh" coords="282,546,273,577,270,611,264,644,254,689,248,729,275,732,303,739,329,740,354,745,362,743,364,708,364,688,364,678,354,653,348,634,348,623,355,626,362,623,368,618,372,607,372,593,372,584,352,581,324,575,304,569" href="#" />
-                    </map>
-
-                </div>
+      <form action="checkDiagnosis" method="post" id="myForm" style="width:100%; height:100%;">
+         <div class="row" id="row">
+            <div id="veg_demo">
+               <img id="veg" src="dermatomevF2.jpg" usemap="#veg" >
             </div>
-            </br></br>
-
-            <div style="text-align:center;">
-                <input type="submit" class="btn btn-dark btn-lg" value="Submit" style="margin:auto;">
-            </div>
-            </form>
-			<h1>${diagnosis}</h1>
-            <% String diagnosis = (String)request.getAttribute("diagnosis");
-            Integer id = (Integer)request.getAttribute("id");
-			if(diagnosis == null || diagnosis.isEmpty()){}else{
-            %>
-            
-            <%=diagnosis%>
-            </br>
-            </br>
-            
-            <%=id%>
-            
-            <% } %>
-            
-
-            
-            
-        </div>
-    </section>
-
-
-    <!-- Footer -->
-    <footer  style="background-color:lightgray;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
-
-</body>
-
+         </div>
+      </form>
+      <script type="text/javascript">
+         document.getElementById("row").style.width = document.getElementById("veg").width + "px";
+         $(document).ready(function () {
+                var image = $('img');
+                image.mapster(
+                {
+                     fillOpacity: 0.4,
+                     fillColor: "d42e16",
+                     strokeColor: "3320FF",
+                     strokeOpacity: 0.8,
+                     strokeWidth: 2,
+                     stroke: true,
+                     isSelectable: true,
+                     singleSelect: false,
+                     mapKey: 'name',
+                     listKey: 'name'
+               });
+            });
+      </script>
+      <map id="veg_map" name="veg">
+         <area shape="poly" name="l1" coords="125,256,122,267,121,277,120,287,128,296,134,303,143,310,153,315,162,324,166,332,166,325,167,322,162,313,159,305,159,300,158,295,163,297,170,292,170,276,155,273,145,271,134,267" href="#">
+         <area name="l2" title="" href="#" shape="poly" coords="120,289,117,303,115,311,120,319,125,326,135,335,146,346,156,357,163,370,164,377,166,362,167,349,166,339,166,334,161,326,153,317,142,312,133,305,127,298" />
+         <area name="l3" title="" href="#" shape="poly" coords="115,313,112,332,113,341,118,352,129,367,146,385,151,404,151,429,150,458,154,484,156,487,156,474,155,463,153,454,153,445,154,440,156,424,159,410,161,394,163,379,155,359,145,348,134,337,124,328,119,321" />
+         <area name="l4" title="" href="#" shape="poly" coords="111,337,108,359,117,378,123,387,124,406,126,428,126,454,129,469,134,503,141,514,140,555,141,573,135,584,129,592,125,596,120,605,121,610,128,609,132,606,136,602,138,595,140,587,141,584,145,580,148,572,147,558,146,551,145,541,148,526,149,514,149,507,150,502,155,489,149,460,149,430,149,405,144,386,129,369,118,354,113,343" />
+         <area name="l5" title="" href="#" shape="poly" coords="108,361,107,376,110,385,111,396,116,405,120,415,120,444,119,459,119,471,118,481,120,495,122,512,124,532,124,539,125,549,126,562,125,566,117,583,115,588,111,594,109,598,108,603,109,606,111,606,112,608,114,607,115,609,117,609,119,609,118,606,123,595,127,592,133,584,139,573,138,556,139,515,132,504,127,470,124,455,124,429,122,406,121,388,115,379" />
+         <area name="s1" title="" href="#" shape="poly" coords="123,568,120,575,115,584,110,592,109,596,107,601,106,604,105,599,108,591,112,586" />
+         <area name="s1" title="" href="#" shape="poly" coords="170,293,163,298,159,297,161,300,161,304,164,313,166,319,170,321" />
+         <area name="s5" title="" href="#" shape="poly" coords="179,300,179,308,181,307,183,305,183,302,182,300" />
+         <area name="s4" title="" href="#" shape="poly" coords="179,294,183,295,188,299,189,306,189,311,185,314,181,315,178,316,178,310,181,309,183,309,184,307,186,304,185,302,184,300,180,298,178,298" />
+         <area name="s3" title="" href="#" shape="poly" coords="179,292,179,287,183,288,189,291,194,299,194,306,194,315,189,317,185,319,179,321,180,317,183,317,187,315,191,312,190,304,190,298,184,293,181,291,178,290" />
+         <area name="s2" title="" href="#" shape="poly" coords="179,273,195,276,204,290,208,301,207,322,204,328,201,335,209,344,213,369,213,383,211,402,210,410,211,429,211,441,216,462,220,486,219,495,218,512,212,573,210,580,207,593,205,591,207,569,209,547,209,524,211,514,207,491,205,466,205,449,207,428,208,417,196,371,190,339,186,321,189,319,196,316,196,307,196,299,191,291,185,288,179,285" />
+         <area name="s1" title="" href="#" shape="poly" coords="179,256,179,271,196,274,206,289,210,301,209,322,206,329,203,335,211,344,215,370,215,384,213,402,212,411,213,430,213,441,218,462,222,486,221,495,220,513,214,573,211,582,212,593,219,592,225,588,230,585,237,583,239,579,240,575,232,573,228,570,227,568,227,556,228,541,228,515,230,501,232,485,232,477,231,468,221,435,221,429,221,423,224,409,228,397,230,377,229,364,229,353,227,332,225,301,223,286,222,277,221,272,217,266,211,261,206,259,198,257" />
+         <area name="l4" title="" href="#" shape="poly" coords="229,567,231,568,235,570,237,573,232,571,230,571" />
+         <area name="l5" title="" href="#" shape="poly" coords="210,584,209,593,210,591" />
+         <area name="l4" title="" href="#" shape="poly" coords="203,588,203,562,204,555,203,534,201,513,209,513,207,525,207,547,205,569" />
+         <area name="l3" title="" href="#" shape="poly" coords="205,410,197,411,192,408,189,406,193,423,194,433,196,439,197,445,197,452,196,460,195,474,194,484,195,494,196,499,200,507,201,511,209,511,206,489,204,464,203,447,205,429,207,419" />
+         <area name="l2" title="" href="#" shape="poly" coords="193,359,188,358,184,357,186,382,189,397,189,405,197,410,205,409,196,375" />
+         <area name="l1" title="" href="#" shape="poly" coords="184,321,179,323,184,330,184,334,184,343,183,354,186,356,190,358,192,357,188,339,188,333,186,324" />
+         <area name="l5" title="" href="#" shape="poly" coords="179,254,179,250,198,252,206,255,217,259,224,264,228,272,230,283,230,294,234,316,238,349,240,354,239,380,239,381,239,386,232,408,231,413,230,460,223,436,223,429,222,421,225,407,229,395,230,375,230,362,229,351,228,329,225,303,223,288,222,279,221,274,218,268,213,263,208,259,200,258" />
+         <area name="l4" title="" href="#" shape="poly" coords="179,248,179,244,198,246,205,250,217,253,225,257,224,259,224,262,219,259,208,254,200,252" />
+         <area name="l3" title="" href="#" shape="poly" coords="179,242,179,239,197,241,205,243,216,246,225,250,225,253,225,255,217,251,206,248,196,245" />
+         <area name="l2" title="" href="#" shape="poly" coords="178,237,178,233,196,235,205,238,216,240,224,243,225,248,216,244,203,242,194,240" />
+         <area name="l1" title="" href="#" shape="poly" coords="179,231,179,224,189,225,195,226,201,227,210,230,216,232,223,236,224,238,225,241,215,238,204,236,195,233" />
+      </map>
+      <div style="width:100%; text-align:center;">
+         <input id="submit" type="submit" value="Submit" style="margin:0 auto; " >
+      </div>
+   </body>
 </html>
