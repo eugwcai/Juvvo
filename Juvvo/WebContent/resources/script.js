@@ -1,54 +1,44 @@
-tday=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
-tmonth=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+$(document).ready(function () {
+               // a cross reference of area names to text to be shown for each area
 
-function GetClock(){
-	var d=new Date();
-	var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
-	if(nyear<1000) nyear+=1900;
-	var nhour=d.getHours();
-	var nmin=d.getMinutes();
-	var nsec=d.getSeconds();
-	var ap = "PM";
+             var xref = { 
+                 l1: {id: "l1", select: false, message: "You have selected L1"},
+                 l2: {id: "l2", select: false, message: "You have selected L2"},
+                 l3: {id: "l3", select: false, message: "You have selected L3"},
+                 l4: {id: "l4", select: false, message: "You have selected L4"},
+                 l5: {id: "l5", select: false, message: "You have selected L5"},      
+                 s1: {id: "s1", select: false, message: "You have selected S1"},
+                 s2: {id: "s2", select: false, message: "You have selected S2"},
+                 s3: {id: "s3", select: false, message: "You have selected S3"},
+                 s4: {id: "s4", select: false, message: "You have selected S4"},
+                 s5: {id: "s5", select: false, message: "You have selected S5"}};
 
-	if(nhour==0){ap=" AM";nhour=12;}
-	else if(nhour<12){ap=" AM";}
-	else if(nhour==12){ap=" PM";}
-	else if(nhour>12){ap=" PM";nhour-=12;}
+                var image = $('img');
+                image.mapster(
+                {
+                     fillOpacity: 0.4,
+                     fillColor: "d42e16",
+                     strokeColor: "04B2E0",
+                     strokeOpacity: 0.8,
+                     strokeWidth: 2,
+                     stroke: true,
+                     isSelectable: true,
+                     singleSelect: false,
+                     mapKey: 'name',
+                     listKey: 'name',
+                     onClick: function(e){
+                      xref[e.key]["select"] = !xref[e.key]["select"];
+                        if(xref[e.key]["select"]){
+                          var oldHTML = document.getElementById("selectText").innerHTML;
+                          document.getElementById("selectText").innerHTML = oldHTML + '<li style="margin: 5px" id="' + xref[e.key]["id"] + '">' + xref[e.key]["message"] + '</li>';
+                          document.getElementById(xref[e.key]["id"] + "Q").classList.remove("provQ");
+                        }else{
+                          document.getElementById(xref[e.key]["id"]).remove();
+                          document.getElementById(xref[e.key]["id"] + "Q").classList.add("provQ");
+                        } 
+                      }
 
-	if(nhour<=9) nhour="0"+nhour;
-	if(nmin<=9) nmin="0"+nmin;
-	if(nsec<=9) nsec="0"+nsec;
-	if(ndate<=9) ndate="0"+ndate;
 
-	document.getElementById('subcontainer1').innerHTML=""+nhour+":"+nmin+":"+nsec+ " " + ap+ "<br />"; 
-	document.getElementById('subcontainer2').innerHTML=""+tday[nday]+", "+ndate + " " + tmonth[nmonth]+" "+nyear+"";
-}
-
-window.onload=function(){
-	if(document.getElementById('subcontainer1')){
-		GetClock();
-		setInterval(GetClock,1000);
-	}
-};
-
-$(document).ready(function(){
-		$("#visitor_type").change(function() {
-			$("#visitor_type").css("color","#1e1e1e");
-		});
-		$("#badge_number2").change(function() {
-			$("#badge_number2").css("color","#1e1e1e");
-		});
-		$("#citizenship_4").change(function() {
-			$("#citizenship_4").css("color","#1e1e1e");
-			if($("#citizenship_4").val() === "Other"){
-				$("#other_citizenship").removeAttr("disabled");
-				$("#other_citizenship").attr("required","true");
-				$("#other_citizenship").css("border", "2px solid #0799CC");
-			}else{
-				$("#other_citizenship").val("");
-				$("#other_citizenship").attr("disabled", "true");
-				$("#other_citizenship").css("border", "2px solid #d3d3d3");
-				
-			}
-		});	
-});
+                     
+               });
+            });
