@@ -1,3 +1,47 @@
+
+function mySubmit(){
+  //alert("ok");
+  var prov = document.getElementById("provocative");
+  var selected = document.getElementById("selected");
+  var out1 = document.getElementById("output1");
+
+  
+    fade(prov);
+    fade(selected);
+ setTimeout(function(){
+  prov.style.display = "none";
+  selected.style.display = "none";
+  unfade(out1);
+  out1.classList.add("output");
+   },800);
+}
+
+function fade(element) {
+    var op = 1;  // initial opacity
+    var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            //element.style.display = 'none';
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.1;
+    }, 50);
+}
+
+function unfade(element) {
+    var op = 0.1;  // initial opacity
+    element.style.display = 'inline-block';
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.05;
+    }, 10);
+}
+
 $(document).ready(function () {
                // a cross reference of area names to text to be shown for each area
 

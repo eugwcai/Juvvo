@@ -7,6 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
     <script src="resources/image_mapster.js" type="text/javascript"></script>
+    <script src="resources/script.js" type="text/javascript"></script>
     <link href="resources/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -23,12 +24,17 @@
           <div id="innerrow" style="margin: 0 auto; width: 850px; text-align: center;">
             <div id="selected" style="display:inline-block; width: 250px; height:320px; vertical-align:top; margin-top:150px; background-color: rgba(211, 211, 211, 0.2); border-radius: 15px;">
               <h3 style="text-decoration: underline; margin-left:15px">Selected Regions</h3><br>
-              <!--asdnaldknaslkdnasd<br>sakfnsdkfjnaskfjfnas<br>askdjfnasdjkfasn<br>-->
               <div id="selectText"></div>
             </div>
             <div id="veg_demo" style="width:337px; display:inline-block">
                 <img id="veg" src="images/dermatomevF.png" usemap="#veg" style="clear: both" >
             </div>
+
+            <div id="output1" style="display:none; opacity:0.1">
+              <h3 style="text-decoration: underline; margin-left:15px">You should be doing this</h3><br>
+              <div id="selectText"></div>
+            </div>
+
             <div id="provocative" style="overflow: hidden; overflow-y: scroll; height: 500px; display:inline-block; width: 250px; vertical-align:top; margin-top:50px; background-color: rgba(211, 211, 211, 0.2); border-radius: 15px; text-align:left">
               <h3 style="text-decoration: underline; text-align:right; margin-right: 15px">Provocative Testing</h3><br>
               <ul>
@@ -132,13 +138,14 @@
               </ul>
             </div>
 
-           <button type="submit" class="signin" id="button" style="margin:0 auto; height:50px; width:150px; font-size:16px"> Submit <i class="fa fa-sign-in" id="signini" style="font-size: 24px; float: right;"></i></button>
+           <!--<button type="submit" class="signin" id="button" style="margin:0 auto; height:50px; width:150px; font-size:16px"> Submit <i class="fa fa-sign-in" id="signini" style="font-size: 24px; float: right;"></i></button>-->
+           <input type="button" class="signin" id="button" style="margin:0 auto; height:50px; width:150px; font-size:16px" onclick="mySubmit()" value="Submit">
 
           </div>
         </div>
       </form>
 
-      <script src="resources/script.js" type="text/javascript"></script>
+     
 
       <map id="veg_map" name="veg">
          <area shape="poly" name="l1" coords="125,256,122,267,121,277,120,287,128,296,134,303,143,310,153,315,162,324,166,332,166,325,167,322,162,313,159,305,159,300,158,295,163,297,170,292,170,276,155,273,145,271,134,267" href="#">
