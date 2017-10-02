@@ -1,19 +1,38 @@
 
-function mySubmit(){
+function mySubmit(button){
   //alert("ok");
   var prov = document.getElementById("provocative");
   var selected = document.getElementById("selected");
   var out1 = document.getElementById("output1");
 
-  
+  if(document.getElementById("button").value == "Submit"){
     fade(prov);
     fade(selected);
- setTimeout(function(){
-  prov.style.display = "none";
-  selected.style.display = "none";
-  unfade(out1);
-  out1.classList.add("output");
-   },800);
+    setTimeout(function(){
+      prov.style.display = "none";
+      selected.style.display = "none";
+      unfade(out1);
+      out1.classList.add("output");
+      document.getElementById("button").value = "Reset";
+    },800);
+  }else if(document.getElementById("button").value == "Reset"){
+    fade(out1);
+    setTimeout(function(){
+      out1.style.display = "none";
+      unfade(prov);
+      unfade(selected);
+      $("area").mapster("set", false);
+      document.getElementById("selectText").innerHTML = "";
+
+      var ul = document.getElementById("listQ");
+      var items = ul.getElementsByTagName("li");
+      for (var i = 0; i < items.length; ++i) {
+        items[i].classList.add("provQ");
+      }
+
+      document.getElementById("button").value = "Submit";
+    }, 800);
+  }
 }
 
 function fade(element) {
@@ -67,6 +86,7 @@ $(document).ready(function () {
                      strokeWidth: 2,
                      stroke: true,
                      isSelectable: true,
+                     isDeselectable: true,
                      singleSelect: false,
                      mapKey: 'name',
                      listKey: 'name',
