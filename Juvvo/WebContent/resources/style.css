@@ -18,6 +18,28 @@ html,body {
 	font-family:arial;
 }
 
+#submitButt{
+	background-color:white;
+	color:#0799CC;
+	cursor:pointer;
+}
+
+#submitButt:hover {
+	background-color: #04B2E0;
+	color: white;
+}
+
+#resetButt{
+	background-color:white;
+	color:#0799CC;
+	cursor:pointer;
+}
+
+#resetButt:hover {
+	background-color: #04B2E0;
+	color: white;
+}
+
 #container #logo{
 	display: block;
 	float: left; 
@@ -40,25 +62,6 @@ html,body {
     margin-top:5%;
 }
 
-#button {
-	display: inline-block;
-	margin-left: 1%;
-	margin-top: 1%;
-	width: 275px;
-	height: 75px;
-	background-color: white;
-	border: 2px solid #0799CC;
-	color: #0799CC;
-	font-size: 25px;
-	cursor: pointer;
-	border-radius: 5px;
-	box-shadow: none;
-}
-
-#button:hover {
-	background-color: #04B2E0;
-	color: white;
-}
 
 .fa {
 	color: #0799CC;
@@ -66,17 +69,58 @@ html,body {
 
 
 form input {
-	display: block;
+	display: inline;
 	margin: auto;
-	width: 300px;
-	height: 50px;
-	margin-bottom: 25px;
+	width: 177px;
+	height: 30px;
+	margin: 0 0;
 	border: 2px solid #0799CC;
 	border-radius: 5px;
 	box-shadow: none;
 	padding-left: 5px;
 	font-size: 20px;
 	color: #1e1e1e;
+}
+
+.checkbox{
+	width:20px;
+	display: inline;
+	border: 2px solid #0799CC;
+	border-radius: 5px;
+	box-shadow: none;
+}
+
+#movementInfo{
+	cursor:pointer;
+	position:relative;
+}
+
+#movementInfo figure{
+	display:none;
+	position:absolute;
+}
+
+#movementInfo:focus figure, #movementInfo:hover figure{
+	display:block;
+}
+
+form select{
+	display: inline;
+	margin: auto;
+	width: 177px;
+	height: 30px;
+	margin: 0 0;
+	border: 2px solid #0799CC;
+	border-radius: 5px;
+	box-shadow: none;
+	padding-left: 5px;
+	font-size: 20px;
+	color: #1e1e1e;
+	font-size:16px;
+}
+
+label{
+	margin-left:15px;
 }
 
 #logo {

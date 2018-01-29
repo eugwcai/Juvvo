@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -9,146 +9,191 @@
     <script src="resources/image_mapster.js" type="text/javascript"></script>
     <script src="resources/script.js" type="text/javascript"></script>
     <link href="resources/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
   </head>
   
   <body class="juvvoBody">
 
+    <!-- logo -->
     <div id="container">  
       <img src='images/juvvo_cloud_v2.png' id="logo" alt="Home" />
     </div>
 
+    <!-- page body -->
     <div id="container2"> 
-      <form method="post" id="myForm" style="width:100%; height:100%;">
-        <div id="row" style="width:100%">
-          <div id="innerrow" style="margin: 0 auto; width: 850px; text-align: center;">
-            <div id="selected" style="display:inline-block; width: 250px; height:320px; vertical-align:top; margin-top:150px; background-color: rgba(211, 211, 211, 0.2); border-radius: 15px;">
-              <h3 style="text-decoration: underline; margin-left:15px">Selected Regions</h3><br>
-              <div id="selectText"></div>
-            </div>
-            <div id="veg_demo" style="width:337px; display:inline-block">
-                <img id="veg" src="images/dermatomevF.png" usemap="#veg" style="clear: both" >
-            </div>
 
-            <div id="output1" style="display:none; opacity:0.1">
-              <h3 style="text-decoration: underline; margin-left:15px">You should be doing this</h3><br>
-              <div id="selectText"></div>
-            </div>
+      <form id="myForm" method="post" style="width:100%; height:100%;">
+        <div id="innerrow" style="margin: 0 auto; width: 100%; text-align: center;">
 
-            <div id="provocative" style="overflow: hidden; overflow-y: scroll; height: 500px; display:inline-block; width: 250px; vertical-align:top; margin-top:50px; background-color: rgba(211, 211, 211, 0.2); border-radius: 15px; text-align:left">
-              <h3 style="text-decoration: underline; text-align:right; margin-right: 15px">Provocative Testing</h3><br>
-              <ul id="listQ">
-                <li class="provQ" id="l1Q">
-                  <label>Does it hurt when you try to touch your toes?<br>
-                    <label class="answer" style="color:black">Yes</label>
-                    <input type="radio" value="Yes" style="display:inline; height:1em; width:22px;">
-                    </input>
-                    <label class="answer" style="color:black; margin-left:20px">No</label>
-                    <input type="radio" value="No" style="display:inline; width: 22px; height:1em"></input>
-                  </label>
-                </li>
-                
-                <li class="provQ" id="l2Q">
-                  <label>Select all that apply<br>
-                    <label class="answer" style="color:black">Numbness</label>
-                    <input type="checkbox" value="numbness" style="display:inline; height:1em; width:22px;"></input>
-                    <label class="answer" style="color:black; margin-left:18px">Sharp Pain</label>
-                    <input type="checkbox" value="No" style="display:inline; width: 22px; height:1em"></input><br> 
-                    <label class="answer" style="color:black">Throbbing</label>
-                    <input type="checkbox" value="throbbing" style="display:inline; height:1em; width:22px;"></input>
-                    <label class="answer" style="color:black; margin-left:20px">Cold</label>
-                    <input type="checkbox" value="No" style="display:inline; width: 22px; height:1em"></input>
-                  </label>
-                </li>
-                
-                <li class="provQ" id="l3Q">
-                  <label>Can you raise your arms above your head?
-                    <select name="arms" style="max-width: 150px; margin-bottom:10px">
-                      <option>Over my head with minimal pain</option>
-                      <option>Over my head with some pain</option>
-                      <option>Over my head with pain</option>
-                      <option>Unable to raise arms above my head</option>
-                    </select>
-                  </label>
-                </li>
-
-                <li class="provQ" id="l4Q">
-                  <label>Name: 
-                    <input type="text" style="width:100px; height:25px; display:inline">
-                  </label>
-                </li>
-
-                <li class="provQ" id="l5Q">
-                  <label>How often do you stretch
-                    <select name="arms" style="max-width: 150px; margin-bottom:10px">
-                      <option>Everyday</option>
-                      <option>A few times a week</option>
-                      <option>A few times a month</option>
-                      <option>Rarely</option></select>
-                    </label>
-                  </li>
-
-                <li class="provQ" id="s1Q">
-                  <label>Can you jump on one leg?<br>
-                    <label class="answer" style="color:black">Yes</label>
-                    <input type="radio" value="Yes" style="display:inline; height:1em; width:22px;"><label class="answer" style="color:black; margin-left:20px">No</label>
-                    <input type="radio" value="No" style="display:inline; width: 22px; height:1em">
-                  </label>
-                </li>
-                
-                <li class="provQ" id="s2Q">
-                  <label>Select all that apply<br>
-                    <label class="answer" style="color:black">Leg pain</label>
-                    <input type="checkbox" value="numbness" style="display:inline; height:1em; width:22px;">
-                    <label class="answer" style="color:black; margin-left:20px">Back pain</label>
-                    <input type="checkbox" value="No" style="display:inline; width: 22px; height:1em"><br> 
-                    <label class="answer" style="color:black">Arm pain</label>
-                    <input type="checkbox" value="throbbing" style="display:inline; height:1em; width:22px;">
-                    <label class="answer" style="color:black; margin-left:20px">Chest pain</label>
-                    <input type="checkbox" value="No" style="display:inline; width: 22px; height:1em">
-                  </label>
-                </li>
-                
-                <li class="provQ" id="s3Q">
-                  <label>How much can you bend your legs
-                    <select name="arms" style="max-width: 150px; margin-bottom:10px">
-                      <option>Squat all the way down (more than 90 degrees)</option>
-                      <option>Parallel to the floor</option>
-                      <option>Can't bend past my knee (less than 90 degrees)</option>
-                    </select>
-                  </label>
-                </li>
-
-                <li class="provQ" id="s4Q">
-                  <label>Phone number: 
-                    <input type="text" style="width:100px; height:25px; display:inline">
-                  </label>
-                </li>
-
-                <li class="provQ" id="s5Q">
-                  <label>How many meals do you eat a day
-                    <select name="arms" style="max-width: 150px; margin-bottom:10px">
-                      <option>More than 3</option>
-                      <option>3</option>
-                      <option>Less than 3</option>
-                    </select>
-                  </label>
-                </li>
-
-              </ul>
-            </div>
-
-           <!--<button type="submit" class="signin" id="button" style="margin:0 auto; height:50px; width:150px; font-size:16px"> Submit <i class="fa fa-sign-in" id="signini" style="font-size: 24px; float: right;"></i></button>-->
-           <input type="button" class="signin" id="button" style="margin:0 auto; height:50px; width:150px; font-size:16px" onclick="mySubmit(this)" value="Submit">
-
+          <!-- body graphic -->
+          <div id="body_demo" style="width:337px; display:inline-block">
+            <img id="body" src="images/dermatomevF.png" usemap="#body" style="clear: both" >
           </div>
+
+          <!-- general questions -->
+          <div id="general" style="display: none">
+            <div style="display:block"><h1 style="margin:10px">Shoulder</h1>
+              <h6 id="validation" style="display: none; color:red; font-size: 12px; margin-bottom:10px; margin-top:0">Please fill out all required fields</h6>
+              <div style="overflow: hidden; overflow-y: scroll; height: 550px; display:block; width: 600px; vertical-align:top; background-color: rgba(211, 211, 211, 0.2); border-radius: 15px; text-align:left">
+                
+                <h3 style="text-decoration: underline; text-align:left; margin-left: 20px; margin-top:10px">Demographics</h3><br>
+                
+                <div id="demographic1" style="margin-bottom:15px">
+                  <label id="firstNameLabel">First Name</label>
+                  <input type="text" id="firstName" required/>
+                  <label id="lastNameLabel">Last Name</label>
+                  <input type="text" id="lastName" required/>
+                </div> 
+
+                <div id="demographic2" style="margin-bottom:15px">
+                  <label id="ageLabel">Age</label>
+                  <input type="text" style="width:40px" id="age" required/>
+                  <label id="genderLabel">Gender</label>
+                  <select style="width:108px" id="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                  <label id="ethnicityLabel">Ethnicity</label>
+                  <select style="width:205px" id="ethnicity" required>
+                    <option value="">Select</option>
+                    <option value="hispanic">Hispanic and Latino</option>
+                    <option value="africanamerican">Black or African American</option>
+                    <option value="asian">Asian and Pacific Islander</option>
+                    <option value="caucasian">White or European American</option>
+                    <option value="middleeastern">Middle Eastern American</option>
+                    <option value="multiracial">Multiracial</option>
+                  </select>
+                </div>   
+
+                <br>
+
+                <h3 style="text-decoration: underline; text-align:left; margin-left: 20px">Symptoms</h3><br>
+                
+                <div id="symptom1" style="margin-bottom:15px">
+                  <label id="typeofInjuryLabel">Type of Injury</label>
+                  <select style="width:163px" id="typeofInjury" required>
+                    <option value="">Select</option>
+                    <option value="trauma">Accident/Trauma</option>
+                    <option value="chronic">Chronic</option>
+                  </select>
+                  <label id="presenceofHeadachesLabel">Presence of headaches?</label>
+                  <select style="width:86px" id="presenceofHeadaches" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>                   
+                
+                <div id="symptom2" style="margin-bottom:15px">
+                  <label id="durationLabel">Duration of Pain</label>
+                  <select style="width:145px" id="duration" required>
+                    <option value="">Select</option>
+                    <option value="week">Less than a week</option>
+                    <option value="month">Less than a month</option>
+                    <option value="year">Within the year</option>
+                    <option value="multiyear">Longer than a year</option>
+                  </select>
+                  
+                  <label id="shoulderPainLabel" style="margin-left:27px">Shoulder pain at night?</label>
+                  <select style="width:86px" id="shoulderPain" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+
+                <br>
+
+                <h3 style="text-decoration: underline; text-align:left; margin-left: 20px">Provocative Testing</h3>
+
+                <h4 style="margin-left:20px">Pain Associated with Shoulder Movement  <span id="movementInfo">&#9432; <figure>
+                  <img src="images/movements-at-the-shoulder.jpg" style="width:8000%; height:8000%; border: 2px solid blue; border-radius: 3px"> 
+                </figure></span></h4> 
+                
+                
+                <div id="symptom1" style="margin-bottom:15px">
+                  <label for="flexion">Flexion</label> 
+                  <input type="checkbox" style="margin-left:18px" class="checkbox" id="flexion"/>
+                  <label for="inwardRotation">Inward Rotation</label>
+                  <input type="checkbox" style="margin-left:15px" class="checkbox" id="inwardRotation"/>
+                  <label for="horizontalAbduction">Horizontal Abduction</label>
+                  <input type="checkbox" class="checkbox" id="horizontalAbduction"/>
+                  
+                  <br>
+                  <label for="extension">Extension</label>
+                  <input type="checkbox" class="checkbox" id="extension"/>
+                  <label for="outwardRotation">Outward Rotation</label>
+                  <input type="checkbox" style="margin-left:3px" class="checkbox" id="outwardRotation"/>
+                  
+                  <label for="horizontalAdduction">Horizontal Adduction</label>
+                  <input type="checkbox" class="checkbox" id="horizontalAdduction"/>
+                </div>  
+
+                <br>
+
+                <h3 style="text-decoration: underline; text-align:left; margin-left: 20px">Nerve Assessment</h3>                
+                
+                <div id="symptom1" style="margin-bottom:15px">
+                  <label id="radiculopathyLabel" style="margin-left:15px">Altered Sensation/Radiculopathy</label>
+                  <select style="width:86px" onchange="showPara(this);" id="radiculopathy" required>
+                    <option value="">Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span id="parasthesia" style="display:none">              
+                    <label id="sensationLabel" style="margin-left:27px">Parasthesia?</label>
+                    <select style="width:86px" id="sensation">
+                      <option value="">Select</option>
+                      <option value="tingling">Tingling</option>
+                      <option value="numbness">Numbness</option>
+                      <option value="throbbing">Throbbing</option>
+                      <option value="electrical">Electrical-like</option>
+                    </select>
+                  </span>
+                </div>  
+
+              </div>
+            </div>
+          </div>
+
+          <!-- output -->
+            <div id="output1" style="display:none; opacity:0.1">
+              <h3 style="text-decoration: underline; margin-left:15px">Treatment Options</h3><br>
+              <div id="selectText" style="text-align:left">
+                <h4 style="margin-left:10px">Data Assigned for:</h4>
+                <ul>
+                  <li>Postural Re-education +Lifestyle changes+Upper Crossed Syndrome</li>
+                  <li>Cervical/Shoulder/Mid-back STR </li>
+                  <li>Isometrics (ranges)</li>
+                  <li>Cervical Retraction (w/ Rotation) </li>
+                  <li>Shoulder AROM/STR</li>
+                  <li>Scapular Retraction (target rhomboids, post delt)</li>
+                  <li>Elbow/Wrist STR</li>
+                  <li>Repeated AROM of Cervical Joint!</li>
+                  <li>+Nerve Glides (Ulnar/Radial/Medial)</li>
+                  <li>Stretches for Affected muscles ***</li>
+                  <li>Strengthening for Affected myotomal weakness** </li>
+                </ul>
+              </div>
+            </div>
+          
+          </div>
+          
+          <div style="display: none; margin:auto; text-align:center; margin-top:25px; width:100%" id="submitForm">
+              <input id="submitButt" style="text-align:center; margin: auto; height:50px;" type="button" value="Submit" onclick="showOutput();">
+            </div>
+
         </div>
-      </form>
 
-     
+       
 
-      <map id="veg_map" name="veg">
-         <area shape="poly" name="l1" coords="125,256,122,267,121,277,120,287,128,296,134,303,143,310,153,315,162,324,166,332,166,325,167,322,162,313,159,305,159,300,158,295,163,297,170,292,170,276,155,273,145,271,134,267" href="#">
+      </form>    
+
+
+
+      <map id="body_map" name="body">
+         <!--<area shape="poly" name="l1" coords="125,256,122,267,121,277,120,287,128,296,134,303,143,310,153,315,162,324,166,332,166,325,167,322,162,313,159,305,159,300,158,295,163,297,170,292,170,276,155,273,145,271,134,267" href="#">
          <area name="l2" title="" href="#" shape="poly" coords="120,289,117,303,115,311,120,319,125,326,135,335,146,346,156,357,163,370,164,377,166,362,167,349,166,339,166,334,161,326,153,317,142,312,133,305,127,298" />
          <area name="l3" title="" href="#" shape="poly" coords="115,313,112,332,113,341,118,352,129,367,146,385,151,404,151,429,150,458,154,484,156,487,156,474,155,463,153,454,153,445,154,440,156,424,159,410,161,394,163,379,155,359,145,348,134,337,124,328,119,321" />
          <area name="l4" title="" href="#" shape="poly" coords="111,337,108,359,117,378,123,387,124,406,126,428,126,454,129,469,134,503,141,514,140,555,141,573,135,584,129,592,125,596,120,605,121,610,128,609,132,606,136,602,138,595,140,587,141,584,145,580,148,572,147,558,146,551,145,541,148,526,149,514,149,507,150,502,155,489,149,460,149,430,149,405,144,386,129,369,118,354,113,343" />
@@ -170,8 +215,11 @@
          <area name="l4" title="" href="#" shape="poly" coords="179,248,179,244,198,246,205,250,217,253,225,257,224,259,224,262,219,259,208,254,200,252" />
          <area name="l3" title="" href="#" shape="poly" coords="179,242,179,239,197,241,205,243,216,246,225,250,225,253,225,255,217,251,206,248,196,245" />
          <area name="l2" title="" href="#" shape="poly" coords="178,237,178,233,196,235,205,238,216,240,224,243,225,248,216,244,203,242,194,240" />
-         <area name="l1" title="" href="#" shape="poly" coords="179,231,179,224,189,225,195,226,201,227,210,230,216,232,223,236,224,238,225,241,215,238,204,236,195,233" />
+         <area name="l1" title="" href="#" shape="poly" coords="179,231,179,224,189,225,195,226,201,227,210,230,216,232,223,236,224,238,225,241,215,238,204,236,195,233" />-->
+         <area name="l1" title="" href="#" alt="shoulderArea" shape="poly" coords="120,111,102,115,97,120,92,126,89,133,89,139,86,150,87,157,87,164,113,182,111,161,114,143,119,133,130,109" />
       </map>
+
     </div>
+
   </body>
 </html>
