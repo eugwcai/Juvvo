@@ -45,3 +45,21 @@ Acute,Swelling,Bruising/Tenderness,Can you bear weight comfortably?,Did you hear
 1,1,1,1,0,1,Potential Grade 1 or Grade 2 ankle sprain. The RICE protocol is suggested 
 1,1,1,1,1,0,Potential Grade 1 or Grade 2 ankle sprain. The RICE protocol is suggested 
 1,1,1,1,1,1,Potential Grade 1 or Grade 2 ankle sprain. The RICE protocol is suggested 
+0,0,0,0,1,0,"Chronic popping alone of the knee is not always a cause for alarm. If you cannot bear weight as indicated, seeking medical attention is recommended."
+0,0,0,0,1,1,"Chronic popping of the knee might sometimes feel alarming, but isn't always a cause for concern. Stiffness could potentially indicate arthritis."
+0,0,0,1,1,0,"Chronic popping of the knee might sometimes feel alarming, but isn't always a cause for concern. If these pops start occuring more frequently, or are accompanied by pain, it is recommended that you seek medical attention to assess the knee."
+0,0,0,1,1,1,"Chronic popping of the knee might sometimes feel alarming, but isn't always a cause for concern. If these pops start occuring more frequently, or are accompanied by pain, it is recommended that you seek medical attention to assess the knee."
+0,0,1,0,1,0,Potential aggravation of an older injury suffered. Medical attention is recommended.
+0,0,1,0,1,1,Potential ankle sprain or injury. Medical attention is recommended. 
+0,0,1,1,0,0,"If bruising is not accompanied by any pain, it is recommended that you seek medical attention to rule out any more serious issues. "
+0,0,1,1,1,0,Acute ankle injury. RICE protocol is recommened.
+0,0,1,1,1,1,Acute ankle injury. RICE protocol is recommened.
+0,1,0,0,1,0,Potential ankle sprain or injury. Medical attention is recommended. 
+0,1,0,0,1,1,Potential ankle sprain or injury. Medical attention is recommended. 
+0,1,0,1,1,0,Potential ankle injury. RICE protocol is recommended.
+0,1,0,1,1,1,Potential ankle injury. RICE protocol is recommended.
+0,1,1,0,0,0,Potential ankle sprain or injury. Medical attention is recommended. 
+0,1,1,0,1,0,Potential ankle sprain or injury. Medical attention is recommended. 
+0,1,1,0,1,1,Potential ankle sprain or injury. Medical attention is recommended. 
+0,1,1,1,1,0,Potential ankle injury. RICE protocol is recommended.
+0,1,1,1,1,1,Potential ankle injury. RICE protocol is recommended.
