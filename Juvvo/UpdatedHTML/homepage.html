@@ -1,0 +1,405 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+        <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+        <script src="./juvvo.js"></script>
+    </head>
+    <body>
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img src="./Juvvo.png" style="width:auto; height: 50px; padding-right:15px; padding-top:10px; padding-bottom:10px" />
+                </div>
+                <ul class="nav navbar-nav">
+                    <li id="nav-back" class="active"><a href="#">Back</a></li>
+                    <li id="nav-ankle"><a href="#">Ankle</a></li>
+                    <li id="nav-shoulder"><a href="#">Shoulder</a></li>
+                    <li id="nav-elbow"><a href="#">Elbow</a></li>
+                    <li id="nav-knee"><a href="#">Knee</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- PAGE CONTENT -->
+        <div class="container-fluid"> 
+            <div class="col-lg-12">
+                
+                <!-- Back -->
+                <div id="back">
+                    <h2>Back Symptoms</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <label class="col-lg-2">Acute?</label>
+                                <select class="col-lg-1" id="back-acute-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Anterior Leg?</label>
+                                <select class="col-lg-1" id="back-anterior-leg-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Posterior Leg?</label>
+                                <select class="col-lg-1" id="back-posterior-leg-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Lateral Leg?</label>
+                                <select class="col-lg-1" id="back-lateral-leg-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Bathroom Trouble?</label>
+                                <select class="col-lg-1" id="back-bathroom-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+                            <input type="button" id="back-submit-symptoms" value="Submit"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ankle -->
+                <div id="ankle" style="display:none">
+                    <h2>Ankle Symptoms</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <label class="col-lg-2">Acute?</label>
+                                <select class="col-lg-1" id="ankle-acute-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+    
+                            <div class="row">
+                                <label class="col-lg-2">Swelling?</label>
+                                <select class="col-lg-1" id="ankle-swelling-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+    
+                            <div class="row">
+                                <label class="col-lg-2">Bruising/Tenderness?</label>
+                                <select class="col-lg-1" id="ankle-bruising-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+    
+                            <div class="row">
+                                <label class="col-lg-2">Can you bear weight comfortably?</label>
+                                <select class="col-lg-1" id="ankle-weight-bearing-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+    
+                            <div class="row">
+                                <label class="col-lg-2">Did you hear a loud pop?</label>
+                                <select class="col-lg-1" id="ankle-loud-pop-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+    
+                            <div class="row">
+                                <label class="col-lg-2">Stiffness?</label>
+                                <select class="col-lg-1" id="ankle-stiffness-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+                            <input type="button" id="ankle-submit-symptoms" value="Submit"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shoulder -->
+                <div id="shoulder" style="display:none">
+                    <h2>Shoulder Symptoms</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <label class="col-lg-2">Acute?</label>
+                                <select class="col-lg-1" id="shoulder-acute-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Pain on bony prominence of shoulder?</label>
+                                <select class="col-lg-1" id="shoulder-bony-prominence-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Pain while moving across body?</label>
+                                <select class="col-lg-1" id="shoulder-across-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Did you fall on your shoulder, or ram it against something?</label>
+                                <select class="col-lg-1" id="shoulder-ram-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Bruising?</label>
+                                <select class="col-lg-1" id="shoulder-bruising-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Buldge near shoulder?</label>
+                                <select class="col-lg-1" id="shoulder-buldge-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Pain with overhead activities</label>
+                                <select class="col-lg-1" id="shoulder-overhead-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+                            <input type="button" id="submit-symptoms" value="Submit"/>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Elbow -->
+                <div id="elbow" style="display:none">
+                <h2>Elbow Symptoms</h2>
+                   <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <label class="col-lg-2">Acute?</label>
+                                <select class="col-lg-1" id="elbow-acute-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Pain at front of elbow while straight</label>
+                                <select class="col-lg-1" id="elbow-front-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Tenderness inside elbow</label>
+                                <select class="col-lg-1" id="elbow-tenderness-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Do you play a throwing sport?</label>
+                                <select class="col-lg-1" id="elbow-throwing-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Bruising?</label>
+                                <select class="col-lg-1" id="elbow-bruising-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Extreme Pain with obvious deformity</label>
+                                <select class="col-lg-1" id="elbow-deformity-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="col-lg-2">Stiffness</label>
+                                <select class="col-lg-1" id="elbow-stiffness-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                                <div class="row">
+                                <label class="col-lg-2">Pain that radiates into wrist</label>
+                                <select class="col-lg-1" id="elbow-radiating-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>
+
+                                <div class="row">
+                                <label class="col-lg-2">Trouble Gripping?</label>
+                                <select class="col-lg-1" id="elbow-gripping-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div> 
+
+                                <div class="row">
+                                <label class="col-lg-2">Pain increases with activity but lessens with rest</label>
+                                <select class="col-lg-1" id="elbow-activity-symptom">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </div>   
+                            <input type="button" id="submit-symptoms" value="Submit"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Knee -->
+                <div id="knee" style="display:none">
+                <h2>Knee Symptoms</h2>
+                   <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                            <label class="col-lg-2">Acute?</label>
+                            <select class="col-lg-1" id="knee-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Swelling</label>
+                            <select class="col-lg-1" id="knee-swelling-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Does your knee feel unstable?</label>
+                            <select class="col-lg-1" id="knee-unstable-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Can you bear weight comfortably?</label>
+                            <select class="col-lg-1" id="knee-weight-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Did you hear a loud pop?</label>
+                            <select class="col-lg-1" id="knee-pop-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Stiffness</label>
+                            <select class="col-lg-1" id="knee-stiffness-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Pain on the side of the knee</label>
+                            <select class="col-lg-1" id="knee-side-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label class="col-lg-2">Pain more centrally located in the knee</label>
+                            <select class="col-lg-1" id="knee-central-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                            <div class="row">
+                            <label class="col-lg-2">Pain in the back of the knee</label>
+                            <select class="col-lg-1" id="knee-back-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                            <div class="row">
+                            <label class="col-lg-2">Pain in he medial side of knee</label>
+                            <select class="col-lg-1" id="knee-medial-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                            <div class="row">
+                            <label class="col-lg-2">Pain lower part of knee</label>
+                            <select class="col-lg-1" id="Pain lower part of knee">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                        <div class="row">
+                            <label class="col-lg-2">Pain walking up or down stairs</label>
+                            <select class="col-lg-1" id="knee-stairs-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <input type="button" id="submit-symptoms" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+   
+                <h2>Response</h2>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="output"></div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>
