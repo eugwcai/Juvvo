@@ -4,6 +4,7 @@ $( document ).ready(function() {
     var shoulder_symptoms_dict;
     var elbow_symptoms_dict;
     var knee_symptoms_dict;
+    var quad_symptoms_dict;
     d3.csv("./back_symptoms.csv").then(function(data) {
         back_symptoms_dict = data;
     });
@@ -18,6 +19,9 @@ $( document ).ready(function() {
     });
     d3.csv("./knee_symptoms.csv").then(function(data) {
     knee_symptoms_dict = data;
+    });
+    d3.csv("./quad_symptoms.csv").then(function(data) {
+    quad_symptoms_dict = data;
     });
 
     $("#back-submit-symptoms").on("click", function(){
@@ -122,6 +126,25 @@ $( document ).ready(function() {
 	        }
 	    }
 
+    });
+
+        $("#submit-symptoms").on("click", function(){
+        var lookUpKey = "";
+        var qas = $("#quad-acute-symptom").find(":selected").val();
+        var qts = $("#quad-tearing-symptom").find(":selected").val();
+        var qws = $("#quad-weight-symptom").find(":selected").val();
+        var qis = $("#quad-indentation-symptom").find(":selected").val();
+        var qbss = $("#quad-bruising-swelling-symptom").find(":selected").val();
+        var qss = $("#quad-strength-symptom").find(":selected").val();
+        for(var i = 0; i < quad_symptoms_dict.length; i++){
+            if(quad_symptoms_dict[i]["Acute"] == qas && quad_symptoms_dict[i]["Did you hear a popping or tearing sensation"] == qts && 
+                quad_symptoms_dict[i]["Trouble Bearing weight"] == qws && quad_symptoms_dict[i]["Noticable muscle indentation above knee cap"]
+                == qis && quad_symptoms_dict[i]["Swelling/Brusing"] == qbss && quad_symptoms_dict[i]["Loss of Strength?"] == sbgs){
+                console.log(quad_symptoms_dict[i]["Output"]);
+                $("#output").text(quad_symptoms_dict[i]["Output"]);
+            }
+        }
+
 
     });
 
@@ -132,11 +155,13 @@ $( document ).ready(function() {
         $("#nav-shoulder").removeClass("active");
         $("#nav-elbow").removeClass("active");
         $("#nav-knee").removeClass("active");
+        $("#nav-quad").removeClass("active");
         $("#back").css('display','block');
         $("#shoulder").css('display','none');
         $("#elbow").css('display','none');
         $("#ankle").css('display','none');
         $("#knee").css('display','none');
+        $("#quad").css('display','none');
         $("#output").text("");
     });
 
@@ -146,11 +171,13 @@ $( document ).ready(function() {
         $("#nav-shoulder").removeClass("active");
         $("#nav-elbow").removeClass("active");
         $("#nav-knee").removeClass("active");
+        $("#nav-quad").removeClass("active");
         $("#ankle").css('display','block');
         $("#back").css('display','none');
         $("#shoulder").css('display','none');
         $("#elbow").css('display','none');
         $("#knee").css('display','none');
+        $("#quad").css('display','none');
         $("#output").text("");
     });
 
@@ -160,11 +187,13 @@ $( document ).ready(function() {
         $("#nav-ankle").removeClass("active");
         $("#nav-elbow").removeClass("active");
         $("#nav-knee").removeClass("active");
+        $("#nav-quad").removeClass("active");
         $("#shoulder").css('display','block');
         $("#ankle").css('display','none');
         $("#back").css('display','none');
         $("#elbow").css('display','none');
         $("#knee").css('display','none');
+        $("#quad").css('display','none');
         $("#output").text("");
     });
 
@@ -174,11 +203,13 @@ $( document ).ready(function() {
         $("#nav-ankle").removeClass("active");
         $("#nav-shoulder").removeClass("active");
         $("#nav-knee").removeClass("active");
+        $("#nav-quad").removeClass("active");
         $("#elbow").css('display','block');
         $("#ankle").css('display','none');
         $("#back").css('display','none');
         $("#shoulder").css('display','none');
         $("#knee").css('display','none');
+        $("#quad").css('display','none');
         $("#output").text("");
     });
 
@@ -187,12 +218,30 @@ $( document ).ready(function() {
         $("#nav-back").removeClass("active");
         $("#nav-ankle").removeClass("active");
         $("#nav-shoulder").removeClass("active");
-        $("#nav-elbow").removeClass("active")
-        $("#knee").css('display','block')
+        $("#nav-elbow").removeClass("active");
+        $("#nav-quad").removeClass("active");
+        $("#knee").css('display','block');
         $("#elbow").css('display','none');
         $("#ankle").css('display','none');
         $("#back").css('display','none');
         $("#shoulder").css('display','none');
+        $("#quad").css('display','none');
+        $("#output").text("");
+    });
+
+        $("#nav-quad").on("click",function(){
+        $("#nav-quad").addClass("active");
+        $("#nav-back").removeClass("active");
+        $("#nav-ankle").removeClass("active");
+        $("#nav-shoulder").removeClass("active");
+        $("#nav-knee").removeClass("active");
+        $("#nav-elbow").removeClass("active");
+        $("#quad").css('display','block')
+        $("#elbow").css('display','none');
+        $("#ankle").css('display','none');
+        $("#back").css('display','none');
+        $("#shoulder").css('display','none');
+        $("#knee").css('display','none');
         $("#output").text("");
     });
 
