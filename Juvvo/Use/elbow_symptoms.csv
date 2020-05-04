@@ -1,0 +1,1025 @@
+Acute,Pain at front of elbow while straight,Tenderness inside elbow,Do you play a throwing sport?,Bruising,Extreme Pain with obvious deformity,Stiffness,Pain that radiates into wrist,Trouble Gripping,Pain increases with activity but lessens with rest,Output
+0,0,0,0,0,0,0,0,0,0,"Great news! It looks like you have a healthy and functional elbow. If you feel like you've received this in error, please resubmit your symptoms"
+0,0,0,0,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,0,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,0,1,0,0,Potential chronic tennis elbow or overuse. The RICE protocol is recommended along with extensive corrective exercise.
+0,0,0,0,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,0,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,1,0,0,0,Potential chronic arthritic symtpoms. The RICE protocol is recommended with corrective exercises.
+0,0,0,0,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,0,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,0,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,0,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,0,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,0,0,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,0,0,0,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,0,0,1,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,0,1,0,0,0,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,0,0,1,0,0,1,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,0,0,0,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,0,0,1,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,0,1,0,0,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,0,0,1,0,1,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,0,0,0,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,0,0,1,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,0,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,0,0,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,0,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,0,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,0,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,0,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,0,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,1,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,1,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,0,1,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,0,1,1,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,1,0,0,0,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,0,1,1,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,0,1,1,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,1,0,0,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,0,1,1,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,0,1,1,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,0,1,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,0,1,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,1,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,1,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,1,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,0,1,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,0,1,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,0,0,0,0,0,Potential chronic overuse or tennis elbow. The RICE protocol is recommended along with extensive corrective exercise.
+0,0,1,0,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,0,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,0,1,0,0,Potential chronic overuse or tennis elbow. The RICE protocol is recommended along with extensive corrective exercise.
+0,0,1,0,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,0,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,1,0,0,0,Potential chronic arthritic symtpoms. The RICE protocol is recommended with corrective exercises.
+0,0,1,0,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,0,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,0,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,0,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,0,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,0,0,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,0,1,0,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,1,0,1,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,0,1,0,0,0,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,1,0,1,0,0,1,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,0,1,0,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,1,0,1,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,0,1,0,0,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,1,0,1,0,1,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,0,1,0,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,1,0,1,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,0,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,1,0,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,0,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,0,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,0,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,0,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,0,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,1,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,1,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,0,1,1,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,1,1,1,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,1,0,0,0,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,1,1,1,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,0,1,1,1,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,1,0,0,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises. You've also indicated that you have brusing and so we recommend that you seek medical attention to correctly diagnose.
+0,0,1,1,1,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,1,1,1,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,0,1,1,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,0,1,1,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,1,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,1,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,1,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,0,1,1,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,0,1,1,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,0,0,0,0,0,Potential chronic arthritic symtpoms. The RICE protocol is recommended with corrective exercises.
+0,1,0,0,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,0,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,0,1,0,0,Potential chronic tennis elbow or overuse. The RICE protocol is recommended along with extensive corrective exercise.
+0,1,0,0,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,0,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,1,0,0,0,Potential chronic arthritic symtpoms. The RICE protocol is recommended with corrective exercises.
+0,1,0,0,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,0,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,0,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,0,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,0,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,0,0,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,0,0,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,0,1,0,0,0,1,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,0,0,1,0,0,0,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,0,1,0,0,1,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,0,0,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,0,1,0,0,1,1,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,0,0,1,0,0,1,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,0,1,0,1,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,0,0,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,0,0,1,0,1,0,1,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,0,0,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,0,0,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,0,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,0,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,0,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,0,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,0,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,1,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,1,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,0,1,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,1,1,0,0,0,1,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,1,0,0,0,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,1,1,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,1,1,0,0,1,1,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,1,0,0,1,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,0,1,1,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,0,1,1,0,1,0,1,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,0,1,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,0,1,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,1,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,1,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,1,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,0,1,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,0,1,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,0,0,0,0,0,Potential chronic overuse or tennis elbow. The RICE protocol is recommended along with extensive corrective exercise.
+0,1,1,0,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,0,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,0,1,0,0,Potential chronic overuse or tennis elbow. The RICE protocol is recommended along with extensive corrective exercise.
+0,1,1,0,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,0,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,1,0,0,0,Potential chronic arthritic symtpoms. The RICE protocol is recommended with corrective exercises.
+0,1,1,0,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,0,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,0,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,0,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,0,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,0,0,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,1,0,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,0,1,0,0,0,1,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,1,0,1,0,0,0,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,0,1,0,0,1,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,1,0,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,0,1,0,0,1,1,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,1,0,1,0,0,1,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,0,1,0,1,0,0,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,1,0,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,1,0,1,0,1,0,1,0,"You've indicated that you are experiencing bruising and discomfort in the elbow. If you feel the discoloration has been present longer than x days, it is recommended that you seek medical attention."
+0,1,1,0,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,1,0,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,0,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,0,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,0,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,0,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,0,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,0,0,0,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,0,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,0,0,0,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,0,0,0,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,0,1,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,0,0,0,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,0,0,1,0,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,1,0,1,0,Potential chronic tennis elbow or arthritis. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,0,0,1,0,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,1,0,0,1,1,0,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,1,0,0,1,1,1,1,"Potential chronic arthric symptoms, or overuse. The RICE protocol is recommended along with extensive corrective exercises. "
+0,1,1,1,0,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,0,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,0,0,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,1,0,0,0,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,1,1,0,0,0,1,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,1,0,0,0,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,1,1,0,0,1,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,1,0,0,1,0,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,1,1,0,0,1,1,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,1,0,0,1,1,1,"Potential chornic tennis elbow or arthritis. You've indicate that you are also experiencing some bruising. If this is the case, we recommend that you seek meical attention in order to rule out any more serious conditions. "
+0,1,1,1,1,0,1,0,0,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,1,0,1,0,0,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,1,1,1,0,1,0,1,0,Potential chronic tennis elbow. The RICE protocol is recommended with extensive corrective exercise.
+0,1,1,1,1,0,1,0,1,1,"Potenial chronic tennis elbow, or arthritis. You've also indicated that you are experiencing some bruising. We recommend that you seek medical attention to correctly diagnose the bruising or discoloration. "
+0,1,1,1,1,0,1,1,0,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,1,1,0,1,1,0,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,1,1,0,1,1,1,0,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,1,1,0,1,1,1,1,Potential chronic tennis elbow. RICE protocol is recommended along with extensive corrective exercises.
+0,1,1,1,1,1,0,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,0,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,0,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,0,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,0,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,0,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,1,0,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,1,0,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,1,1,0,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+0,1,1,1,1,1,1,1,1,1,You've indicated that you are experiencing extreme pain with an apparent deformity. Please seek medical attention to rule out any fractures or dislocations. 
+1,0,0,0,0,0,0,0,0,0,"Acute injury to the elbow. If pain does not subside, it is recommended that you seek medical attention."
+1,0,0,0,0,0,0,0,0,1,"Acute injury to the elbow. If pain does not subside, it is recommended that you seek medical attention."
+1,0,0,0,0,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,1,0,0,0,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,0,0,1,0,0,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,0,0,1,0,1,0,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,0,0,0,0,0,"Acute onset of elbow pain with bruising. If bruising does not subside within x days, please seek medical attention."
+1,0,0,0,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,0,0,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,0,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,0,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,0,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,0,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,1,0,1,0,0,0,Acute elbow injury with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,0,0,1,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,0,0,1,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,0,0,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,1,0,1,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,0,1,0,1,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,0,1,0,1,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,0,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,0,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,0,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,0,0,1,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,0,0,1,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,0,0,1,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,1,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,1,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,0,0,1,0,0,1,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,0,0,1,0,0,1,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,0,0,1,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,1,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,0,0,0,0,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,0,0,1,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,0,1,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,1,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,1,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,1,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,1,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,1,1,0,1,0,0,0,Acute onset of elbow pain/dysfunction with bruising and stiffness. RICE protocol is recommended along with corrective exercises.
+1,0,0,1,1,0,1,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,0,1,1,0,1,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,0,1,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,1,1,0,1,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,1,1,0,1,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,1,1,0,1,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,0,1,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,0,1,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,0,1,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,0,1,0,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,0,1,0,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,0,1,0,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,0,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,0,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,0,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,0,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,0,0,0,0,0,"Acute onset of elbow pain with bruising. If bruising does not subside within x days, please seek medical attention to rule out more serious injuries."
+1,0,1,0,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,0,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,0,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,1,0,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,1,0,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,1,0,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,0,1,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,0,1,0,1,1,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,1,1,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,1,1,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,0,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,0,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,0,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,0,1,1,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,0,1,1,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,0,1,1,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,1,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,0,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,0,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,1,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,0,0,0,0,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,0,1,1,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,0,1,1,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,1,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,1,1,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,1,1,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,0,1,1,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,1,1,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,1,1,0,1,1,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,1,1,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,1,1,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,0,1,1,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,0,1,1,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,0,1,1,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,1,0,0,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,0,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,0,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,0,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,1,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,1,0,0,0,0,1,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,0,0,0,1,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,0,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,0,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,0,0,0,0,0,"Acute onset of elbow pain with bruising. If bruising does not subside within x days, please seek medical attention."
+1,1,0,0,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,0,0,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,0,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,0,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,0,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,0,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,0,1,0,1,0,0,0,Acute onset of elbow pain/dysfunction with bruising and stiffness. RICE protocol is recommended along with corrective exercises.
+1,1,0,0,1,0,1,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,0,0,1,0,1,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,0,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,0,1,0,1,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,0,1,0,1,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,0,1,0,1,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,0,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,0,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,0,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,1,0,1,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,1,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,1,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,1,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,1,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,1,0,1,0,0,1,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,1,0,0,1,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,1,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,1,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,0,0,0,0,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,0,1,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,0,1,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,1,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,1,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,1,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,1,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,1,1,0,1,0,0,0,Acute onset of elbow pain/dysfunction with bruising and stiffness. RICE protocol is recommended along with corrective exercises.
+1,1,0,1,1,0,1,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,0,1,1,0,1,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,0,1,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,1,1,0,1,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,1,1,0,1,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,1,1,0,1,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,0,1,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,0,1,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,0,1,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,1,1,0,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,1,1,0,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,1,0,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,0,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,0,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,0,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,0,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,0,0,0,0,0,"Acute onset of elbow pain with bruising. If bruising does not subside within x days, please seek medical attention."
+1,1,1,0,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,0,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,0,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,1,0,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,1,0,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,1,0,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,0,1,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,0,1,0,1,1,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,1,1,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,1,1,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,0,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,0,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,0,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,0,0,0,0,0,Acute onset of elbow pain/dysfunction. Potential arthritis or overuse injury. RICE is recommended along with corrective exercises.
+1,1,1,1,0,0,0,0,0,1,Potential acute overuse injury of the elbow. The RICE protocol is recommended along with corrective exercises. 
+1,1,1,1,0,0,0,0,1,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,1,1,0,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,1,0,0,0,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,0,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,0,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,0,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,0,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,0,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,0,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,1,0,0,1,1,0,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,1,1,0,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,1,1,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,0,1,1,1,1,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,0,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,0,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,0,0,0,0,0,Potential overuse of elbow leading to pain/discomfort. The RICE protocol is recommended along with corrective exercises. 
+1,1,1,1,1,0,0,0,0,1,Acute elbow injury with brusing. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,0,0,1,0,Acute onset of elbow pain/dysfunction. Potential tennis elbow or overuse injury. RICE is recommended.
+1,1,1,1,1,0,0,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,1,1,0,0,1,0,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,1,1,1,0,0,1,0,1,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,1,1,1,0,0,1,1,0,Acute epidosde of elbow pain accompanied with bruising. Potential overuse causing inflammation. The RICE protocol is recommened with corrective exercises. 
+1,1,1,1,1,0,0,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,1,1,0,1,0,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,1,0,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,1,0,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,1,0,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,1,1,0,1,1,0,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,1,1,0,1,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,1,1,1,0,Potential acute overuse of the elbow with brusing and limited range of motion. RICE protocol is recommended with the use of therapeutic exercises. 
+1,1,1,1,1,0,1,1,1,1,Acute episode of elbow pain. Potential tennis elbow or arthritis. RICE protocol and corrective exercises are recommended. 
+1,1,1,1,1,1,0,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,0,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,0,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,0,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,0,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,0,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,1,0,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,1,0,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,1,1,0,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
+1,1,1,1,1,1,1,1,1,1,Severe acute elbow injury. It is recommended that you seek immediate medical attention to rule out any fractures or dislocations.
