@@ -5,22 +5,22 @@ $( document ).ready(function() {
     var elbow_symptoms_dict;
     var knee_symptoms_dict;
     var quad_symptoms_dict;
-    d3.csv("./back_symptoms.csv").then(function(data) {
+    d3.csv("./data/back_symptoms.csv").then(function(data) {
         back_symptoms_dict = data;
     });
-    d3.csv("./ankle_symptoms.csv").then(function(data) {
+    d3.csv("./data/ankle_symptoms.csv").then(function(data) {
         ankle_symptoms_dict = data;
     }); 
-    d3.csv("./shoulder_symptoms.csv").then(function(data) {
+    d3.csv("./data/shoulder_symptoms.csv").then(function(data) {
         shoulder_symptoms_dict = data;
     });
-    d3.csv("./elbow_symptoms.csv").then(function(data) {
+    d3.csv("./data/elbow_symptoms.csv").then(function(data) {
         elbow_symptoms_dict = data;
     });
-    d3.csv("./knee_symptoms.csv").then(function(data) {
+    d3.csv("./data/knee_symptoms.csv").then(function(data) {
     knee_symptoms_dict = data;
     });
-    d3.csv("./quad_symptoms.csv").then(function(data) {
+    d3.csv("./data/quad_symptoms.csv").then(function(data) {
     quad_symptoms_dict = data;
     });
 

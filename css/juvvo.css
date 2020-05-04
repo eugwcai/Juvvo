@@ -1,0 +1,13 @@
+.diagnostic-response {
+    width:200px;
+}
+
+#left-container{
+    height: 80%;
+}
+
+#canvas {
+    margin-top: 20px;
+}
+
+body { margin: 0 }
