@@ -91,9 +91,9 @@ $( document ).ready(function() {
         for(var i = 0; i < elbow_symptoms_dict.length; i++){
             if(elbow_symptoms_dict[i]["Acute"] == eas && elbow_symptoms_dict[i]["Pain at front of elbow while straight"] == efs && 
                 elbow_symptoms_dict[i]["Tenderness inside elbow"] == ets && elbow_symptoms_dict[i]["Do you play a throwing sport?"]
-                == ethrs && elbow_symptoms_dict[i]["Bruising?"] == ebs && elbow_symptoms_dict[i]["Extreme Pain with obvious deformity"] == eds 
+                == ethrs && elbow_symptoms_dict[i]["Bruising"] == ebs && elbow_symptoms_dict[i]["Extreme Pain with obvious deformity"] == eds 
                 && elbow_symptoms_dict[i]["Stiffness"] == ess 
-                && elbow_symptoms_dict[i]["Pain that radiates into wrist"] ==ers && elbow_symptoms_dict[i]["Trouble Gripping?"] == egs && elbow_symptoms_dict[i]["Pain increases with activity but lessens with rest"] == ascs){
+                && elbow_symptoms_dict[i]["Pain that radiates into wrist"] ==ers && elbow_symptoms_dict[i]["Trouble Gripping"] == egs && elbow_symptoms_dict[i]["Pain increases with activity but lessens with rest"] == ascs){
                 console.log(elbow_symptoms_dict[i]["Output"]);
                 $("#output").text(elbow_symptoms_dict[i]["Output"]);
             }
@@ -114,13 +114,22 @@ $( document ).ready(function() {
 	    var kms = $("#knee-medial-symptom").find(":selected").val();
 	    var kls = $("#knee-lower-symptom").find(":selected").val();
 	    var ksts = $("#knee-stairs-symptom").find(":selected").val();
+
+         $("#output").text("testing");
+
 	    for(var i = 0; i < knee_symptoms_dict.length; i++){
-	        if(knee_symptoms_dict[i]["Acute"] == kas && knee_symptoms_dict[i]["Swelling"] == kss && 
-	            knee_symptoms_dict[i]["Does your knee feel unstable?"] == kus && knee_symptoms_dict[i]["Can you bear weight comfortably?"]
-	            == kws && knee_symptoms_dict[i]["Did you hear a loud pop?"] == kps && knee_symptoms_dict[i]["Stiffness"] == ksfs 
+	        if(    knee_symptoms_dict[i]["Acute"] == kas 
+                && knee_symptoms_dict[i]["Swelling"] == kss 
+                && knee_symptoms_dict[i]["Does your knee feel unstable?"] == kus 
+                && knee_symptoms_dict[i]["Can you bear weight comfortably?"] == kws 
+                && knee_symptoms_dict[i]["Did you hear a loud pop?"] == kps 
+                && knee_symptoms_dict[i]["Stiffness"] == ksfs 
 	            && knee_symptoms_dict[i]["Pain on the side of the knee"] == ksds 
-	            && knee_symptoms_dict[i]["Pain more centrally located in the knee"] ==kcs && knee_symptoms_dict[i]["Pain in the back of the knee"] == kbs && knee_symptoms_dict[i]["Pain in he medial side of knee"] == kms && knee_symptoms_dict[i]["Pain lower part of knee"] == kls && 
-	            knee_symptoms_dict[i]["Pain walking up or down stairs"] == ksts){
+	            && knee_symptoms_dict[i]["Pain more centrally located in the knee"] ==kcs 
+                && knee_symptoms_dict[i]["Pain in the back of the knee"] == kbs 
+                && knee_symptoms_dict[i]["Pain in he medial side of knee"] == kms 
+                && knee_symptoms_dict[i]["Pain lower part of knee"] == kls 
+                && knee_symptoms_dict[i]["Pain walking up or down stairs"] == ksts){
 	            console.log(knee_symptoms_dict[i]["Output"]);
 	            $("#output").text(knee_symptoms_dict[i]["Output"]);
 	        }
@@ -128,7 +137,7 @@ $( document ).ready(function() {
 
     });
 
-        $("#submit-symptoms").on("click", function(){
+    $("#quad-submit-symptoms").on("click", function(){
         var lookUpKey = "";
         var qas = $("#quad-acute-symptom").find(":selected").val();
         var qts = $("#quad-tearing-symptom").find(":selected").val();
@@ -137,9 +146,12 @@ $( document ).ready(function() {
         var qbss = $("#quad-bruising-swelling-symptom").find(":selected").val();
         var qss = $("#quad-strength-symptom").find(":selected").val();
         for(var i = 0; i < quad_symptoms_dict.length; i++){
-            if(quad_symptoms_dict[i]["Acute"] == qas && quad_symptoms_dict[i]["Did you hear a popping or tearing sensation"] == qts && 
-                quad_symptoms_dict[i]["Trouble Bearing weight"] == qws && quad_symptoms_dict[i]["Noticable muscle indentation above knee cap"]
-                == qis && quad_symptoms_dict[i]["Swelling/Brusing"] == qbss && quad_symptoms_dict[i]["Loss of Strength?"] == sbgs){
+            if(quad_symptoms_dict[i]["Acute"] == qas 
+                && quad_symptoms_dict[i]["Did you hear a popping or tearing sensation"] == qts 
+                && quad_symptoms_dict[i]["Trouble Bearing weight"] == qws 
+                && quad_symptoms_dict[i]["Noticable muscle indentation above knee cap"] == qis 
+                && quad_symptoms_dict[i]["Swelling/Brusing"] == qbss 
+                && quad_symptoms_dict[i]["Loss of Strength"] == qss){
                 console.log(quad_symptoms_dict[i]["Output"]);
                 $("#output").text(quad_symptoms_dict[i]["Output"]);
             }

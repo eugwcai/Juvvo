@@ -1,4 +1,4 @@
-Acute,Swelling,Does your knee feel unstable?,Can you bear weight comfortably?,Did you hear a loud pop?,Stiffness,Pain on the side of the knee,Pain more centrally located in the knee,Pain in the back of the knee,Pain in he medial side of knee,Pain lower part of knee,Pain walking up or down stairs,Ouput,,,,
+Acute,Swelling,Does your knee feel unstable?,Can you bear weight comfortably?,Did you hear a loud pop?,Stiffness,Pain on the side of the knee,Pain more centrally located in the knee,Pain in the back of the knee,Pain in he medial side of knee,Pain lower part of knee,Pain walking up or down stairs,Output,,,,
 0,0,0,0,0,0,0,0,0,0,0,0,"Great news! It looks like you have a healthy and functional knee. If you feel like you've received this in error, please resubmit your symptoms",,,,
 0,0,0,0,0,0,0,0,0,0,0,1,"If your pain isn't acute and more chronic, then there is the potential that you may be experiencing some patellar femoral pain, or jumpers knee. Physical therapy is indicated.",,,,
 0,0,0,0,0,0,0,0,0,0,1,0,Potential patellafemoral inflammation. Physical therapy is indicated.,,,,
