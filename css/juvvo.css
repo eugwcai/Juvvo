@@ -1,13 +1,10 @@
-.diagnostic-response {
-    width:200px;
+html {
+    height: 100%;
 }
-
-#left-container{
-    height: 80%;
+body {
+  min-height: 100%;
+  margin: 0;
 }
-
-#canvas {
-    margin-top: 20px;
+.panel-default {
+  background-color:transparent;
 }
-
-body { margin: 0 }

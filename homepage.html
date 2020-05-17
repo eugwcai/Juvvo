@@ -12,463 +12,453 @@
         <script src="./js/juvvo.js"></script>
     </head>
     <body>
-        <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <img src="./images/Juvvo.png" style="width:auto; height: 50px; padding-right:15px; padding-top:10px; padding-bottom:10px" />
-                </div>
-                <ul class="nav navbar-nav">
-                    <li id="nav-back" class="active"><a href="#">Back</a></li>
-                    <li id="nav-ankle"><a href="#">Ankle</a></li>
-                    <li id="nav-shoulder"><a href="#">Shoulder</a></li>
-                    <li id="nav-elbow"><a href="#">Elbow</a></li>
-                    <li id="nav-knee"><a href="#">Knee</a></li>
-                    <li id="nav-quad"><a href="#">Quad</a></li>
-                </ul>
-            </div>
-        </nav>
 
-        <!-- PAGE CONTENT -->
-        <div class="container-fluid"> 
-            <div class="col-lg-6" id="left-container">
-                
-                <!-- Back -->
-                <div id="back">
-                    <h2>Back Symptoms</h2>
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <label class="col-lg-6">Acute?</label>
-                                <select class="col-lg-5 diagnostic-response " id="back-acute-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
+        <div style="position:fixed; left: 15px; top: 10px">
+            <img src="./images/Juvvo.png" style="height: 50px;" />
+        </div>
 
-                            <div class="row">
-                                <label class="col-lg-6">Anterior Leg?</label>
-                                <select class="col-lg-5 diagnostic-response" id="back-anterior-leg-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Posterior Leg?</label>
-                                <select class="col-lg-5 diagnostic-response" id="back-posterior-leg-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Lateral Leg?</label>
-                                <select class="col-lg-5 diagnostic-response" id="back-lateral-leg-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Bathroom Trouble?</label>
-                                <select class="col-lg-5 diagnostic-response" id="back-bathroom-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <input type="button" id="back-submit-symptoms" value="Submit"/>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Ankle -->
-                <div id="ankle" style="display:none">
-                    <h2>Ankle Symptoms</h2>
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <label class="col-lg-6">Acute?</label>
-                                <select class="col-lg-5 diagnostic-response" id="ankle-acute-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-    
-                            <div class="row">
-                                <label class="col-lg-6">Swelling?</label>
-                                <select class="col-lg-5 diagnostic-response" id="ankle-swelling-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-    
-                            <div class="row">
-                                <label class="col-lg-6">Bruising/Tenderness?</label>
-                                <select class="col-lg-5 diagnostic-response" id="ankle-bruising-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-    
-                            <div class="row">
-                                <label class="col-lg-6">Can you bear weight comfortably?</label>
-                                <select class="col-lg-5 diagnostic-response" id="ankle-weight-bearing-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-    
-                            <div class="row">
-                                <label class="col-lg-6">Did you hear a loud pop?</label>
-                                <select class="col-lg-5 diagnostic-response" id="ankle-loud-pop-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-    
-                            <div class="row">
-                                <label class="col-lg-6">Stiffness?</label>
-                                <select class="col-lg-5 diagnostic-response" id="ankle-stiffness-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <input type="button" id="ankle-submit-symptoms" value="Submit"/>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Shoulder -->
-                <div id="shoulder" style="display:none">
-                    <h2>Shoulder Symptoms</h2>
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <label class="col-lg-6">Acute?</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-acute-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain on bony prominence of shoulder?</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-bony-prominence-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain while moving across body?</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-across-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Did you fall on your shoulder, or ram it against something?</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-ram-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Bruising?</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-bruising-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Buldge near shoulder?</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-buldge-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain with overhead activities</label>
-                                <select class="col-lg-5 diagnostic-response" id="shoulder-overhead-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <input type="button" id="shoulder-submit-symptoms" value="Submit"/>
-                        </div>
-                    </div>
-                </div>
-
-                 <!-- Elbow -->
-                <div id="elbow" style="display:none">
-                <h2>Elbow Symptoms</h2>
-                   <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <label class="col-lg-6">Acute?</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-acute-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain at front of elbow while straight</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-front-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Tenderness inside elbow</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-tenderness-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Do you play a throwing sport?</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-throwing-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Bruising?</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-bruising-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Extreme Pain with obvious deformity</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-deformity-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Stiffness</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-stiffness-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                                <div class="row">
-                                <label class="col-lg-6">Pain that radiates into wrist</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-radiating-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                                <div class="row">
-                                <label class="col-lg-6">Trouble Gripping?</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-gripping-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div> 
-
-                                <div class="row">
-                                <label class="col-lg-6">Pain increases with activity but lessens with rest</label>
-                                <select class="col-lg-5 diagnostic-response" id="elbow-activity-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>   
-                            <input type="button" id="elbow-submit-symptoms" value="Submit"/>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Knee -->
-                <div id="knee" style="display:none">
-                <h2>Knee Symptoms</h2>
-                   <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <label class="col-lg-6">Acute?</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-acute-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Swelling</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-swelling-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Does your knee feel unstable?</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-unstable-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Can you bear weight comfortably?</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-weight-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Did you hear a loud pop?</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-pop-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Stiffness</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-stiffness-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain on the side of the knee</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-side-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain more centrally located in the knee</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-central-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain in the back of the knee</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-back-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div> 
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain in he medial side of knee</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-medial-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div> 
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain lower part of knee</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-lower-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div> 
-
-                            <div class="row">
-                                <label class="col-lg-6">Pain walking up or down stairs</label>
-                                <select class="col-lg-5 diagnostic-response" id="knee-stairs-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <input type="button" id="knee-submit-symptoms" value="Submit"/>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quad -->
-                <div id="quad" style="display:none">
-                <h2>Quad Symptoms</h2>
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <label class="col-lg-6">Acute?</label>
-                                <select class="col-lg-5 diagnostic-response" id="quad-acute-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Did you hear a popping or tearing sensation</label>
-                                <select class="col-lg-5 diagnostic-response" id="quad-tearing-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Trouble Bearing weight</label>
-                                <select class="col-lg-5 diagnostic-response" id="quad-weight-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Noticable muscle indentation above knee cap</label>
-                                <select class="col-lg-5 diagnostic-response" id="quad-indentation-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Swelling/Brusing</label>
-                                <select class="col-lg-5 diagnostic-response" id="quad-bruising-swelling-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <label class="col-lg-6">Loss of Strength</label>
-                                <select class="col-lg-5 diagnostic-response" id="quad-strength-symptom">
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <input type="button" id="quad-submit-symptoms" value="Submit"/>
-                        </div>
-                    </div>
-                </div>
-   
-                <h2>Response</h2>
+        <div style="position:fixed; bottom: 0px; left: 15px; width: 35%">
+            <ul class="nav nav-tabs">
+                <li class="nav-item active" id="nav-back"><a href="#">Back</a></li>
+                <li class="nav-item" id="nav-ankle"><a href="#">Ankle</a></li>
+                <li class="nav-item" id="nav-shoulder"><a href="#">Shoulder</a></li>
+                <li class="nav-item" id="nav-elbow"><a href="#">Elbow</a></li>
+                <li class="nav-item" id="nav-knee"><a href="#">Knee</a></li>
+                <li class="nav-item" id="nav-quad"><a href="#">Quad</a></li>
+            </ul>
+            <!-- Back -->
+            <div id="back">
+                <h2>Back Symptoms</h2>
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <div id="output"></div>
+                        <div    >
+                            <label   >Acute?</label>
+                            <select   id="back-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Anterior Leg?</label>
+                            <select class="col-lg-5 diagnostic-response" id="back-anterior-leg-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Posterior Leg?</label>
+                            <select class="col-lg-5 diagnostic-response" id="back-posterior-leg-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Lateral Leg?</label>
+                            <select class="col-lg-5 diagnostic-response" id="back-lateral-leg-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Bathroom Trouble?</label>
+                            <select class="col-lg-5 diagnostic-response" id="back-bathroom-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <input type="button" id="back-submit-symptoms" value="Submit"/>
                     </div>
                 </div>
-            </div>   
-
-            <div class="col-lg-6">
-                <div id="canvas">
-                </div>   
             </div>
-            <script src="./js/juvvo-model.js"></script>
 
-        </div>
+            <!-- Ankle -->
+            <div id="ankle" style="display:none">
+                <h2>Ankle Symptoms</h2>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div    >
+                            <label   >Acute?</label>
+                            <select class="col-lg-5 diagnostic-response" id="ankle-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Swelling?</label>
+                            <select class="col-lg-5 diagnostic-response" id="ankle-swelling-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Bruising/Tenderness?</label>
+                            <select class="col-lg-5 diagnostic-response" id="ankle-bruising-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Can you bear weight comfortably?</label>
+                            <select class="col-lg-5 diagnostic-response" id="ankle-weight-bearing-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Did you hear a loud pop?</label>
+                            <select class="col-lg-5 diagnostic-response" id="ankle-loud-pop-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Stiffness?</label>
+                            <select class="col-lg-5 diagnostic-response" id="ankle-stiffness-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <input type="button" id="ankle-submit-symptoms" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shoulder -->
+            <div id="shoulder" style="display:none">
+                <h2>Shoulder Symptoms</h2>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div    >
+                            <label   >Acute?</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain on bony prominence of shoulder?</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-bony-prominence-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain while moving across body?</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-across-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Did you fall on your shoulder, or ram it against something?</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-ram-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Bruising?</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-bruising-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Buldge near shoulder?</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-buldge-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain with overhead activities</label>
+                            <select class="col-lg-5 diagnostic-response" id="shoulder-overhead-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <input type="button" id="shoulder-submit-symptoms" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elbow -->
+            <div id="elbow" style="display:none">
+            <h2>Elbow Symptoms</h2>
+            <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div    >
+                            <label   >Acute?</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain at front of elbow while straight</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-front-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Tenderness inside elbow</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-tenderness-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Do you play a throwing sport?</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-throwing-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Bruising?</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-bruising-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Extreme Pain with obvious deformity</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-deformity-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Stiffness</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-stiffness-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                            <div    >
+                            <label   >Pain that radiates into wrist</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-radiating-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                            <div    >
+                            <label   >Trouble Gripping?</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-gripping-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                            <div    >
+                            <label   >Pain increases with activity but lessens with rest</label>
+                            <select class="col-lg-5 diagnostic-response" id="elbow-activity-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>   
+                        <input type="button" id="elbow-submit-symptoms" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Knee -->
+            <div id="knee" style="display:none">
+            <h2>Knee Symptoms</h2>
+            <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div    >
+                            <label   >Acute?</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Swelling</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-swelling-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Does your knee feel unstable?</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-unstable-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Can you bear weight comfortably?</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-weight-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Did you hear a loud pop?</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-pop-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Stiffness</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-stiffness-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain on the side of the knee</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-side-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain more centrally located in the knee</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-central-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Pain in the back of the knee</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-back-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                        <div    >
+                            <label   >Pain in he medial side of knee</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-medial-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                        <div    >
+                            <label   >Pain lower part of knee</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-lower-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div> 
+
+                        <div    >
+                            <label   >Pain walking up or down stairs</label>
+                            <select class="col-lg-5 diagnostic-response" id="knee-stairs-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <input type="button" id="knee-submit-symptoms" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quad -->
+            <div id="quad" style="display:none">
+            <h2>Quad Symptoms</h2>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div    >
+                            <label   >Acute?</label>
+                            <select class="col-lg-5 diagnostic-response" id="quad-acute-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Did you hear a popping or tearing sensation</label>
+                            <select class="col-lg-5 diagnostic-response" id="quad-tearing-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Trouble Bearing weight</label>
+                            <select class="col-lg-5 diagnostic-response" id="quad-weight-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Noticable muscle indentation above knee cap</label>
+                            <select class="col-lg-5 diagnostic-response" id="quad-indentation-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Swelling/Brusing</label>
+                            <select class="col-lg-5 diagnostic-response" id="quad-bruising-swelling-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+
+                        <div    >
+                            <label   >Loss of Strength</label>
+                            <select class="col-lg-5 diagnostic-response" id="quad-strength-symptom">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <input type="button" id="quad-submit-symptoms" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Response</h2>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>   
+
+
+        <div id="canvas">
+        </div>  
+        <script src="./js/juvvo-model.js"></script>
     </body>
 </html>
