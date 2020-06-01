@@ -17,17 +17,14 @@
             <img src="./images/Juvvo.png" style="height: 50px;" />
         </div>
 
-        <div style="position:fixed; bottom: 0px; left: 15px; width: 35%">
-            <ul class="nav nav-tabs">
-                <li class="nav-item active" id="nav-back"><a href="#">Back</a></li>
-                <li class="nav-item" id="nav-ankle"><a href="#">Ankle</a></li>
-                <li class="nav-item" id="nav-shoulder"><a href="#">Shoulder</a></li>
-                <li class="nav-item" id="nav-elbow"><a href="#">Elbow</a></li>
-                <li class="nav-item" id="nav-knee"><a href="#">Knee</a></li>
-                <li class="nav-item" id="nav-quad"><a href="#">Quad</a></li>
-            </ul>
+        <div style="position:fixed; right: 5px; top: 10px">
+            <div class="intersected-object"></div>
+        </div>
+
+        <div id="form-container" style="position:fixed; bottom: 0px; left: 15px; width: 35%; display: none">
             <!-- Back -->
-            <div id="back">
+            <div id="back" style="display:none">
+                <div style="float:right; font-size:30px; cursor:pointer;" class="panel-toggle">&#10005;</div>
                 <h2>Back Symptoms</h2>
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -77,6 +74,7 @@
 
             <!-- Ankle -->
             <div id="ankle" style="display:none">
+                <div style="float:right; font-size:30px; cursor:pointer;" class="panel-toggle">&#10005;</div>
                 <h2>Ankle Symptoms</h2>
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -134,6 +132,8 @@
 
             <!-- Shoulder -->
             <div id="shoulder" style="display:none">
+                <div style="float:right; font-size:30px; cursor:pointer;" class="panel-toggle">&#10005;</div>
+
                 <h2>Shoulder Symptoms</h2>
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -199,6 +199,8 @@
 
             <!-- Elbow -->
             <div id="elbow" style="display:none">
+            <div style="float:right; font-size:30px; cursor:pointer;" class="panel-toggle">&#10005;</div>
+
             <h2>Elbow Symptoms</h2>
             <div class="panel panel-default">
                     <div class="panel-body">
@@ -288,6 +290,8 @@
 
             <!-- Knee -->
             <div id="knee" style="display:none">
+            <div style="float:right; font-size:30px; cursor:pointer;" class="panel-toggle">&#10005;</div>
+
             <h2>Knee Symptoms</h2>
             <div class="panel panel-default">
                     <div class="panel-body">
@@ -393,6 +397,8 @@
 
             <!-- Quad -->
             <div id="quad" style="display:none">
+            <div style="float:right; font-size:30px; cursor:pointer;" class="panel-toggle">&#10005;</div>
+
             <h2>Quad Symptoms</h2>
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -448,10 +454,12 @@
                 </div>
             </div>
 
-            <h2>Response</h2>
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <div id="output"></div>
+            <div id="response-panel">
+                <h2>Response</h2>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="output"></div>
+                    </div>
                 </div>
             </div>
         </div>   
