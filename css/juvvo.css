@@ -8,3 +8,11 @@ body {
 .panel-default {
   background-color:transparent;
 }
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.info-button {
+  cursor: pointer;
+}
