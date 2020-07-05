@@ -11,26 +11,6 @@ $( document ).ready(function() {
     animate();
     window.requestAnimationFrame(render);
 
-    document.addEventListener('mousedown', event => {
-        clientClickX = event.offsetX;
-        clientClickY = event.offsetY;
-    });
-
-    document.addEventListener('mouseup', event => {
-        const x = event.offsetX;
-        const y = event.offsetY;
-        if(x != clientClickX || y != clientClickY){
-            return;
-        }
-        registerMouseClick(x, y);
-    });
-
-    $(".panel-toggle").on('click', function(){
-        changeObjectColor(selectedObj, whiteColor);
-        selectedObj = null;
-        $("#form-container").slideToggle("slow", function() { });
-    })
-
     function init() {
         var canvas = document.getElementById("canvas");
         scene = new THREE.Scene();
@@ -44,7 +24,7 @@ $( document ).ready(function() {
         canvas.appendChild(renderer.domElement);
 
         camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 20000);
-        camera.position.set(0,0,40);
+        camera.position.set(0,0,25);
         scene.add(camera);
 
         window.addEventListener('resize', function() {
@@ -88,7 +68,7 @@ $( document ).ready(function() {
         );
 
         var loader = new THREE.GLTFLoader();
-        loader.load('models/lol.glb', 	function ( gltf ) {
+        loader.load('models/animation_model.glb', 	function ( gltf ) {
             mixer = new THREE.AnimationMixer( gltf.scene );
             addEndAnimationListener();
 
@@ -99,12 +79,6 @@ $( document ).ready(function() {
             animationModel = gltf.scene;
             animationModel.visible = false;
             scene.add( gltf.scene );
-            
-            gltf.animations; // Array<THREE.AnimationClip>
-            gltf.scene; // THREE.Group
-            gltf.scenes; // Array<THREE.Group>
-            gltf.cameras; // Array<THREE.Camera>
-            gltf.asset; // Object
         },
             function ( xhr ) {
                 console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
@@ -118,26 +92,6 @@ $( document ).ready(function() {
 
         window.addEventListener( 'mousemove', onMouseMove, false );
     }
-
-    $("#animation-across-body").on('click', function(){
-        selectModel.visible = false;
-        animationModel.visible = true;
-        clip = clips[0];
-        var action = mixer.clipAction( clip );
-        action.setLoop( THREE.LoopOnce );
-        action.play().reset();
-    });
-
-    $("#animation-raise").on('click', function(){
-        selectModel.visible = false;
-        animationModel.visible = true;
-        clip = clips[1];
-        var action = mixer.clipAction( clip );
-        action.setLoop( THREE.LoopOnce );
-        action.play().reset();
-    });
-
-
 
     function animate() {
         requestAnimationFrame(animate);
@@ -283,4 +237,50 @@ $( document ).ready(function() {
         }
     }
 
+    document.addEventListener('mousedown', event => {
+        clientClickX = event.offsetX;
+        clientClickY = event.offsetY;
+    });
+
+    document.addEventListener('mouseup', event => {
+        const x = event.offsetX;
+        const y = event.offsetY;
+        if(x != clientClickX || y != clientClickY){
+            return;
+        }
+        registerMouseClick(x, y);
+    });
+
+    $("#animation-across-body").on('click', function(){
+        selectModel.visible = false;
+        animationModel.visible = true;
+        clip = clips[0];
+        var action = mixer.clipAction( clip );
+        action.setLoop( THREE.LoopOnce );
+        action.play().reset();
+    });
+
+    $("#animation-raise").on('click', function(){
+        selectModel.visible = false;
+        animationModel.visible = true;
+        clip = clips[1];
+        var action = mixer.clipAction( clip );
+        action.setLoop( THREE.LoopOnce );
+        action.play().reset();
+    });
+
+    $("#animation-quad").on('click', function(){
+        selectModel.visible = false;
+        animationModel.visible = true;
+        clip = clips[2];
+        var action = mixer.clipAction( clip );
+        action.setLoop( THREE.LoopOnce );
+        action.play().reset();
+    });
+
+    $(".panel-toggle").on('click', function(){
+        changeObjectColor(selectedObj, whiteColor);
+        selectedObj = null;
+        $("#form-container").slideToggle("slow", function() { });
+    });
 });
