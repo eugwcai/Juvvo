@@ -1,5 +1,6 @@
 $( document ).ready(function() {
-    var scene, camera, clientClickX, clientClickY, renderer, selectedObj, INTERSECTED;
+    var scene, camera, clientClickX, clientClickY, renderer, selectedObj, INTERSECTED, mixer, clips;
+    var animationModel, selectModel;
     var mouse = new THREE.Vector2();
     var hoveredColor = 0x00FFFF;
     var selectedColor = 0x39FF14;
@@ -43,7 +44,7 @@ $( document ).ready(function() {
         canvas.appendChild(renderer.domElement);
 
         camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 20000);
-        camera.position.set(0,0,30);
+        camera.position.set(0,0,40);
         scene.add(camera);
 
         window.addEventListener('resize', function() {
@@ -68,12 +69,14 @@ $( document ).ready(function() {
         light3.position.set(0,100,0);
         scene.add(light3);
 
-        var loader = new THREE.OBJLoader();
-        loader.load('models/body_model.obj', function ( object ) {
+        
+        var loader2 = new THREE.OBJLoader();
+        loader2.load('models/body_model.obj', function ( object ) {
             object.children.forEach(child => {
                 objects.push(child);
                 changeObjectColor(child, whiteColor);
             });
+            selectModel = object;
             scene.add(object);
             },
             function ( xhr ) {
@@ -83,9 +86,58 @@ $( document ).ready(function() {
                 console.log( 'An error happened' );
             }
         );
+
+        var loader = new THREE.GLTFLoader();
+        loader.load('models/lol.glb', 	function ( gltf ) {
+            mixer = new THREE.AnimationMixer( gltf.scene );
+            addEndAnimationListener();
+
+            clips = gltf.animations;
+            gltf.scene.scale.set(3.26,3.26,3.26);       
+            gltf.scene.position.set(-0.1,1.2,4);
+            
+            animationModel = gltf.scene;
+            animationModel.visible = false;
+            scene.add( gltf.scene );
+            
+            gltf.animations; // Array<THREE.AnimationClip>
+            gltf.scene; // THREE.Group
+            gltf.scenes; // Array<THREE.Group>
+            gltf.cameras; // Array<THREE.Camera>
+            gltf.asset; // Object
+        },
+            function ( xhr ) {
+                console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+            },
+            function ( error ) {
+                console.log( 'An error happened' );
+            }
+        );
+
         controls = new THREE.OrbitControls(camera, renderer.domElement);
+
         window.addEventListener( 'mousemove', onMouseMove, false );
     }
+
+    $("#animation-across-body").on('click', function(){
+        selectModel.visible = false;
+        animationModel.visible = true;
+        clip = clips[0];
+        var action = mixer.clipAction( clip );
+        action.setLoop( THREE.LoopOnce );
+        action.play().reset();
+    });
+
+    $("#animation-raise").on('click', function(){
+        selectModel.visible = false;
+        animationModel.visible = true;
+        clip = clips[1];
+        var action = mixer.clipAction( clip );
+        action.setLoop( THREE.LoopOnce );
+        action.play().reset();
+    });
+
+
 
     function animate() {
         requestAnimationFrame(animate);
@@ -98,6 +150,9 @@ $( document ).ready(function() {
     }
 
     function update(){
+        if(mixer){
+        mixer.update( 0.015 );
+        }
         var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
         vector.unproject(camera);
         var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
@@ -108,6 +163,13 @@ $( document ).ready(function() {
     function onMouseMove( event ) {
         mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
         mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+    }
+
+    function addEndAnimationListener() {
+        mixer.addEventListener("finished", function (e) {
+            selectModel.visible = true;
+            animationModel.visible = false;
+        });
     }
 
     function evaluateIntersects(intersects){

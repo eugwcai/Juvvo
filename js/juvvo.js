@@ -25,11 +25,11 @@ $( document ).ready(function() {
     });
 
     $("#back-submit-symptoms").on("click", function(){
-        var bas = $("#back-acute-symptom").find(":selected").val();
-        var bals = $("#back-anterior-leg-symptom").find(":selected").val();
-        var bps = $("#back-posterior-leg-symptom").find(":selected").val();
-        var blls = $("#back-lateral-leg-symptom").find(":selected").val();
-        var bbs = $("#back-bathroom-symptom").find(":selected").val();
+        var bas = $("#back-acute-symptom").is(':checked') ? 1 : 0;
+        var bals = $("#back-anterior-leg-symptom").is(':checked') ? 1 : 0;
+        var bps = $("#back-posterior-leg-symptom").is(':checked') ? 1 : 0;
+        var blls = $("#back-lateral-leg-symptom").is(':checked') ? 1 : 0;
+        var bbs = $("#back-bathroom-symptom").is(':checked') ? 1 : 0;
         for(var i = 0; i < back_symptoms_dict.length; i++){
             if(back_symptoms_dict[i]["Acute"] == bas && back_symptoms_dict[i]["Anterior Leg/Upper Thigh"] == bals && 
                 back_symptoms_dict[i]["Posterior Leg"] == bps && back_symptoms_dict[i]["Lateral Leg"] == blls && 
@@ -41,12 +41,12 @@ $( document ).ready(function() {
     });
 
     $("#ankle-submit-symptoms").on("click", function(){
-        var aas = $("#ankle-acute-symptom").find(":selected").val();
-        var asws = $("#ankle-swelling-symptom").find(":selected").val();
-        var abs = $("#ankle-bruising-symptom").find(":selected").val();
-        var awbs = $("#ankle-weight-bearing-symptom").find(":selected").val();
-        var alp = $("#ankle-loud-pop-symptom").find(":selected").val();
-        var ass = $("#ankle-stiffness-symptom").find(":selected").val();
+        var aas = $("#ankle-acute-symptom").is(':checked') ? 1 : 0;
+        var asws = $("#ankle-swelling-symptom").is(':checked') ? 1 : 0;
+        var abs = $("#ankle-bruising-symptom").is(':checked') ? 1 : 0;
+        var awbs = $("#ankle-weight-bearing-symptom").is(':checked') ? 1 : 0;
+        var alp = $("#ankle-loud-pop-symptom").is(':checked') ? 1 : 0;
+        var ass = $("#ankle-stiffness-symptom").is(':checked') ? 1 : 0;
         for(var i = 0; i < ankle_symptoms_dict.length; i++){
             if(ankle_symptoms_dict[i]["Acute"] == aas && ankle_symptoms_dict[i]["Swelling"] == asws && 
                 ankle_symptoms_dict[i]["Bruising/Tenderness"] == abs && ankle_symptoms_dict[i]["Can you bear weight comfortably?"] == awbs && 
@@ -58,13 +58,13 @@ $( document ).ready(function() {
     });
 
     $("#shoulder-submit-symptoms").on("click", function(){
-        var sas = $("#shoulder-acute-symptom").find(":selected").val();
-        var sbps = $("#shoulder-bony-prominence-symptom").find(":selected").val();
-        var sacs = $("#shoulder-across-symptom").find(":selected").val();
-        var srs = $("#shoulder-ram-symptom").find(":selected").val();
-        var sbrs = $("#shoulder-bruising-symptom").find(":selected").val();
-        var sbgs = $("#shoulder-buldge-symptom").find(":selected").val();
-        var sos = $("#shoulder-overhead-symptom").find(":selected").val();
+        var sas = $("#shoulder-acute-symptom").is(':checked') ? 1 : 0;
+        var sbps = $("#shoulder-bony-prominence-symptom").is(':checked') ? 1 : 0;
+        var sacs = $("#shoulder-across-symptom").is(':checked') ? 1 : 0;
+        var srs = $("#shoulder-ram-symptom").is(':checked') ? 1 : 0;
+        var sbrs = $("#shoulder-bruising-symptom").is(':checked') ? 1 : 0;
+        var sbgs = $("#shoulder-buldge-symptom").is(':checked') ? 1 : 0;
+        var sos = $("#shoulder-overhead-symptom").is(':checked') ? 1 : 0;
         for(var i = 0; i < shoulder_symptoms_dict.length; i++){
             if(shoulder_symptoms_dict[i]["Acute"] == sas && shoulder_symptoms_dict[i]["Pain on bony prominence of shoulder?"] == sbps && 
                 shoulder_symptoms_dict[i]["Pain while moving across body?"] == sacs && shoulder_symptoms_dict[i]["Did you fall on your shoulder, or ram it against something?"]
@@ -78,16 +78,16 @@ $( document ).ready(function() {
     });
 
     $("#elbow-submit-symptoms").on("click", function(){
-        var eas = $("#elbow-acute-symptom").find(":selected").val();
-        var efs = $("#elbow-front-symptom").find(":selected").val();
-        var ets = $("#elbow-tenderness-symptom").find(":selected").val();
-        var ethrs = $("#elbow-throwing-symptom").find(":selected").val();
-        var ebs = $("#elbow-bruising-symptom").find(":selected").val();
-        var eds = $("#elbow-deformity-symptom").find(":selected").val();
-        var ess = $("#elbow-stiffness-symptom").find(":selected").val();
-        var ers = $("#elbow-radiating-symptom").find(":selected").val();
-        var egs = $("#elbow-gripping-symptom").find(":selected").val();
-        var ascs = $("#elbow-activity-symptom").find(":selected").val();
+        var eas = $("#elbow-acute-symptom").is(':checked') ? 1 : 0;
+        var efs = $("#elbow-front-symptom").is(':checked') ? 1 : 0;
+        var ets = $("#elbow-tenderness-symptom").is(':checked') ? 1 : 0;
+        var ethrs = $("#elbow-throwing-symptom").is(':checked') ? 1 : 0;
+        var ebs = $("#elbow-bruising-symptom").is(':checked') ? 1 : 0;
+        var eds = $("#elbow-deformity-symptom").is(':checked') ? 1 : 0;
+        var ess = $("#elbow-stiffness-symptom").is(':checked') ? 1 : 0;
+        var ers = $("#elbow-radiating-symptom").is(':checked') ? 1 : 0;
+        var egs = $("#elbow-gripping-symptom").is(':checked') ? 1 : 0;
+        var ascs = $("#elbow-activity-symptom").is(':checked') ? 1 : 0;
         for(var i = 0; i < elbow_symptoms_dict.length; i++){
             if(elbow_symptoms_dict[i]["Acute"] == eas && elbow_symptoms_dict[i]["Pain at front of elbow while straight"] == efs && 
                 elbow_symptoms_dict[i]["Tenderness inside elbow"] == ets && elbow_symptoms_dict[i]["Do you play a throwing sport?"]
@@ -102,18 +102,18 @@ $( document ).ready(function() {
     });
 
     $("#knee-submit-symptoms").on("click", function(){
-	    var kas = $("#knee-acute-symptom").find(":selected").val();
-	    var kss = $("#knee-swelling-symptom").find(":selected").val();
-	    var kus = $("#knee-unstable-symptom").find(":selected").val();
-	    var kws = $("#knee-weight-symptom").find(":selected").val();
-	    var kps = $("#knee-pop-symptom").find(":selected").val();
-	    var ksfs = $("#knee-stiffness-symptom").find(":selected").val();
-	    var ksds = $("#knee-side-symptom").find(":selected").val();
-	    var kcs = $("#knee-central-symptom").find(":selected").val();
-	    var kbs = $("#knee-back-symptom").find(":selected").val();
-	    var kms = $("#knee-medial-symptom").find(":selected").val();
-	    var kls = $("#knee-lower-symptom").find(":selected").val();
-	    var ksts = $("#knee-stairs-symptom").find(":selected").val();
+	    var kas = $("#knee-acute-symptom").is(':checked') ? 1 : 0;
+	    var kss = $("#knee-swelling-symptom").is(':checked') ? 1 : 0;
+	    var kus = $("#knee-unstable-symptom").is(':checked') ? 1 : 0;
+	    var kws = $("#knee-weight-symptom").is(':checked') ? 1 : 0;
+	    var kps = $("#knee-pop-symptom").is(':checked') ? 1 : 0;
+	    var ksfs = $("#knee-stiffness-symptom").is(':checked') ? 1 : 0;
+	    var ksds = $("#knee-side-symptom").is(':checked') ? 1 : 0;
+	    var kcs = $("#knee-central-symptom").is(':checked') ? 1 : 0;
+	    var kbs = $("#knee-back-symptom").is(':checked') ? 1 : 0;
+	    var kms = $("#knee-medial-symptom").is(':checked') ? 1 : 0;
+	    var kls = $("#knee-lower-symptom").is(':checked') ? 1 : 0;
+	    var ksts = $("#knee-stairs-symptom").is(':checked') ? 1 : 0;
 
          $("#output").text("testing");
 
@@ -139,12 +139,12 @@ $( document ).ready(function() {
 
     $("#quad-submit-symptoms").on("click", function(){
         var lookUpKey = "";
-        var qas = $("#quad-acute-symptom").find(":selected").val();
-        var qts = $("#quad-tearing-symptom").find(":selected").val();
-        var qws = $("#quad-weight-symptom").find(":selected").val();
-        var qis = $("#quad-indentation-symptom").find(":selected").val();
-        var qbss = $("#quad-bruising-swelling-symptom").find(":selected").val();
-        var qss = $("#quad-strength-symptom").find(":selected").val();
+        var qas = $("#quad-acute-symptom").is(':checked') ? 1 : 0;
+        var qts = $("#quad-tearing-symptom").is(':checked') ? 1 : 0;
+        var qws = $("#quad-weight-symptom").is(':checked') ? 1 : 0;
+        var qis = $("#quad-indentation-symptom").is(':checked') ? 1 : 0;
+        var qbss = $("#quad-bruising-swelling-symptom").is(':checked') ? 1 : 0;
+        var qss = $("#quad-strength-symptom").is(':checked') ? 1 : 0;
         for(var i = 0; i < quad_symptoms_dict.length; i++){
             if(quad_symptoms_dict[i]["Acute"] == qas 
                 && quad_symptoms_dict[i]["Did you hear a popping or tearing sensation"] == qts 
@@ -156,106 +156,5 @@ $( document ).ready(function() {
                 $("#output").text(quad_symptoms_dict[i]["Output"]);
             }
         }
-
-
     });
-
-
-    $("#nav-back").on("click",function(){
-        $("#nav-back").addClass("active");
-        $("#nav-ankle").removeClass("active");
-        $("#nav-shoulder").removeClass("active");
-        $("#nav-elbow").removeClass("active");
-        $("#nav-knee").removeClass("active");
-        $("#nav-quad").removeClass("active");
-        $("#back").css('display','block');
-        $("#shoulder").css('display','none');
-        $("#elbow").css('display','none');
-        $("#ankle").css('display','none');
-        $("#knee").css('display','none');
-        $("#quad").css('display','none');
-        $("#output").text("");
-    });
-
-    $("#nav-ankle").on("click",function(){
-        $("#nav-ankle").addClass("active");
-        $("#nav-back").removeClass("active");
-        $("#nav-shoulder").removeClass("active");
-        $("#nav-elbow").removeClass("active");
-        $("#nav-knee").removeClass("active");
-        $("#nav-quad").removeClass("active");
-        $("#ankle").css('display','block');
-        $("#back").css('display','none');
-        $("#shoulder").css('display','none');
-        $("#elbow").css('display','none');
-        $("#knee").css('display','none');
-        $("#quad").css('display','none');
-        $("#output").text("");
-    });
-
-    $("#nav-shoulder").on("click",function(){
-        $("#nav-shoulder").addClass("active");
-        $("#nav-back").removeClass("active");
-        $("#nav-ankle").removeClass("active");
-        $("#nav-elbow").removeClass("active");
-        $("#nav-knee").removeClass("active");
-        $("#nav-quad").removeClass("active");
-        $("#shoulder").css('display','block');
-        $("#ankle").css('display','none');
-        $("#back").css('display','none');
-        $("#elbow").css('display','none');
-        $("#knee").css('display','none');
-        $("#quad").css('display','none');
-        $("#output").text("");
-    });
-
-     $("#nav-elbow").on("click",function(){
-        $("#nav-elbow").addClass("active");
-        $("#nav-back").removeClass("active");
-        $("#nav-ankle").removeClass("active");
-        $("#nav-shoulder").removeClass("active");
-        $("#nav-knee").removeClass("active");
-        $("#nav-quad").removeClass("active");
-        $("#elbow").css('display','block');
-        $("#ankle").css('display','none');
-        $("#back").css('display','none');
-        $("#shoulder").css('display','none');
-        $("#knee").css('display','none');
-        $("#quad").css('display','none');
-        $("#output").text("");
-    });
-
-     $("#nav-knee").on("click",function(){
-        $("#nav-knee").addClass("active");
-        $("#nav-back").removeClass("active");
-        $("#nav-ankle").removeClass("active");
-        $("#nav-shoulder").removeClass("active");
-        $("#nav-elbow").removeClass("active");
-        $("#nav-quad").removeClass("active");
-        $("#knee").css('display','block');
-        $("#elbow").css('display','none');
-        $("#ankle").css('display','none');
-        $("#back").css('display','none');
-        $("#shoulder").css('display','none');
-        $("#quad").css('display','none');
-        $("#output").text("");
-    });
-
-        $("#nav-quad").on("click",function(){
-        $("#nav-quad").addClass("active");
-        $("#nav-back").removeClass("active");
-        $("#nav-ankle").removeClass("active");
-        $("#nav-shoulder").removeClass("active");
-        $("#nav-knee").removeClass("active");
-        $("#nav-elbow").removeClass("active");
-        $("#quad").css('display','block')
-        $("#elbow").css('display','none');
-        $("#ankle").css('display','none');
-        $("#back").css('display','none');
-        $("#shoulder").css('display','none');
-        $("#knee").css('display','none');
-        $("#output").text("");
-    });
-
-
 });
