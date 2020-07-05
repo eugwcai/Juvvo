@@ -138,7 +138,6 @@ $( document ).ready(function() {
     });
 
     $("#quad-submit-symptoms").on("click", function(){
-        var lookUpKey = "";
         var qas = $("#quad-acute-symptom").is(':checked') ? 1 : 0;
         var qts = $("#quad-tearing-symptom").is(':checked') ? 1 : 0;
         var qws = $("#quad-weight-symptom").is(':checked') ? 1 : 0;
